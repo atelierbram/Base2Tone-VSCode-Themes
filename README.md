@@ -63,7 +63,7 @@ Screenshot of Base2Tone_HeathLight in VSCode
 1.  From the menu bar click: Code > Preferences > Color Theme > **Base2Tone_CaveDark** or any of the other themes (_use the arrow keys to preview_)
 
 ### Tweaks
-Some additional tweaks can be made using the [VSCode Custom CSS extension](https://github.com/be5invis/vscode-custom-css). This requires to have a CSS file on your computer that will hold your custom CSS. An example of some small tweaks I made are in the repo: [base2tone-vscode-custom-css.css](https://github.com/atelierbram/Atelier-VSCode-Themes/blob/master/base2tone-vscode-custom-css.css), so one can tweak those as well. Small things like the background color for the Panel title (down at the page, when activated - above the statusbar), and monochrome icons ISO colored ones, to make those icons less distracting.
+Some additional tweaks can be made using the [VSCode Custom CSS extension](https://github.com/be5invis/vscode-custom-css). This requires to have a CSS file on your computer that will hold your custom CSS. An example of some small tweaks I made are in the repo: [base2tone-vscode-custom-css.css](https://github.com/atelierbram/Base2Tone-VSCode-Themes/blob/master/base2tone-vscode-custom-css.css), so one can tweak those as well. Small things like the background color for the Panel title (down at the page, when activated - above the statusbar), and monochrome icons ISO colored ones, to make those icons less distracting.
 
 Once done, open your command palette and select: `enable custom CSS and JS`
 
