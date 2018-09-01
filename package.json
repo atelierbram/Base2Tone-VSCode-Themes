@@ -2,7 +2,7 @@
   "name": "base2tone-vscode-themes",
   "displayName": "Base2tone VSCode Themes",
   "description": "Duotone Themes for VS Code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "Atelierbram",
   "author": {
     "name": "Bram de Haan"
@@ -98,7 +98,6 @@
         "uiTheme": "vs-dark",
         "path": "./themes/Base2Tone_SpaceDark-color-theme.json"
       },
-
       {
         "label": "Base2Tone_CaveLight",
         "uiTheme": "vs",
