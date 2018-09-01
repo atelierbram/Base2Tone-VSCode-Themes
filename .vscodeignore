@@ -1,0 +1,12 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+.gitattributes
+*.DS_Store
+vsc-extension-quickstart.md
+_
+_/**
+._*
+db
+db/**
+io.sh

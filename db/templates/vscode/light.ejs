@@ -1,0 +1,2634 @@
+{
+  "name": "<%- scheme %>",
+  "type": "dark",
+  "colorscheme made by": "<%- author %>",
+  "repository": "https://github.com/atelierbram/Base2Tone-VSCode-Themes",
+  "tokenColors": [
+    {
+      "settings": {
+        "background": "#<%- base["C7"]["hex"] %>",
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "scope": ["meta.embedded", "source.groovy.embedded"],
+      "settings": {
+        "background": "#<%- base["C7"]["hex"] %>",
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#<%- base["C4"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": [
+        "variable",
+        "string constant.other.placeholder"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B7"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Colors",
+      "scope": [
+        "constant.other.color"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B7"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
+      "settings": {
+        "foreground":  "#<%- base["B7"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Keyword, Storage",
+      "scope": [
+        "keyword",
+        "punctuation.accessor",
+        "storage.type"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Keyword, Storage",
+      "scope": [
+        "storage.modifier",
+        "constant.keyword.clojure"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Operator, Misc",
+      "scope": [
+        "punctuation",
+        "punctuation.definition.tag",
+        "punctuation.separator.inheritance.php",
+        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "punctuation.section.embedded",
+        "meta.function punctuation.separator.comma",
+        "punctuation.definition.string",
+        "punctuation.definition.parameters",
+        "punctuation.terminator.expression",
+        "punctuation.definition.arguments",
+        "punctuation.definition.array",
+        "punctuation.section.array",
+        "punctuation.definition.list.begin",
+        "punctuation.definition.list.end",
+        "punctuation.separator.arguments",
+        "punctuation.definition.list",
+        "meta.array" ,
+        "source.elixir punctuation.definition.string",
+        "string.quoted.double.json punctuation.definition.string.json"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C4"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Operator, Misc",
+      "scope": [
+        "keyword.control",
+        "constant.other.color",
+        "keyword.other.template",
+        "keyword.other.substitution"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Tag",
+      "scope": [
+        "entity.name.tag",
+        "meta.tag.sgml",
+        "markup.deleted.git_gutter"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Function, Special Method",
+      "scope": [
+        "meta.function-call",
+        "variable.function",
+        "support.function",
+        "keyword.other.debugger",
+        "keyword.other.special-method",
+        "entity.name.function.clojure"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Block Level Variables",
+      "scope": [
+        "meta.block variable.other"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Other Variable, String Link",
+      "scope": [
+        "support.other.variable",
+        "string.other.link"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "scope": [
+        "constant.language",
+        "support.constant",
+        "constant.character",
+        "constant.escape",
+        "keyword.other.unit",
+        "keyword.other"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "String, Symbols, Inherited Class, Markup Heading",
+      "scope": [
+        "constant.other.symbol",
+        "constant.other.key",
+        "entity.other.inherited-class",
+        "markup.heading",
+        "markup.inserted.git_gutter",
+        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+      ],
+      "settings": {
+        "fontStyle": "normal",
+        "foreground": "#<%- base["B2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Class, Support",
+      "scope": [
+        "entity.name",
+        "support.type",
+        "support.class",
+        "support.orther.namespace.use.php",
+        "meta.use.php",
+        "support.other.namespace.php",
+        "markup.changed.git_gutter",
+        "support.type.sys-types"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Entity Types",
+      "scope": [
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "CSS Class and Support",
+      "scope": [
+        "source.css support.type.property-name",
+        "source.sass support.type.property-name",
+        "source.scss support.type.property-name",
+        "source.less support.type.property-name",
+        "source.stylus support.type.property-name",
+        "source.postcss support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Sub-methods JS",
+      "scope": [
+        "entity.name.module.js",
+        "variable.import.parameter.js",
+        "variable.other.class.js"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Sub-methods PHP",
+      "scope": "variable.other.global.safer.php",
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Language methods",
+      "scope": [
+        "variable.language"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "entity.name.method.js",
+      "scope": [
+        "entity.name.method.js"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "meta.method.js",
+      "scope": [
+        "meta.class-method.js entity.name.function.js",
+        "variable.function.constructor",
+        "keyword.control.conditional.js",
+        "keyword.control.conditional.ts",
+        "keyword.control.switch.js",
+        "keyword.control.switch.ts"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D3"]["hex"] %>",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Arrow & assignments",
+      "scope": [
+        "storage.type.function.arrow.js",
+        "storage.type.function.arrow.js.jsx",
+        "storage.type.function.arrow.ts",
+        "storage.type.function.arrow.tsx",
+        "storage.type.function.arrow.coffee",
+        "keyword.operator.assignment",
+        "keyword.operator.comparison"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Function/Class Name - Go",
+      "scope": ["entity.name.function.go", "source.go keyword.control.loop.go"],
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Function/Class Name - TypeScript",
+      "scope": [
+        "meta.class.ts entity.name.type.class",
+        "meta.class.tsx entity.name.type.class",
+        "meta.class meta.function-call variable.function.ts",
+        "meta.class meta.function-call variable.function.tsx",
+        "source.ts keyword.control.loop.ts",
+        "source.tsx keyword.control.loop.tsx",
+        "source.ts meta.interface.ts entity.name.type.interface.ts",
+        "source.tsx meta.interface.tsx entity.name.type.interface.tsx",
+        "source.ts meta.type.declaration.ts entity.name.type.ts",
+        "source.tsx meta.type.declaration.tsx entity.name.type.tsx"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Function/Class Name - Java",
+      "scope": [
+        "meta.method.identifier.java entity.name.function.java",
+        "meta.method.identifier.java storage.type.generic.java",
+        "meta.class meta.function-call variable.function.java",
+        "source.java keyword.control.loop.java",
+        "storage.type.function.arrow.java",
+        "meta.class.identifier.java entity.name.type.class.java"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Function/Class Name - C#",
+      "scope": [
+        "meta.method.identifier.cs entity.name.function.cs",
+        "meta.method.identifier.cs storage.type.generic.cs",
+        "meta.class meta.function-call variable.function.cs",
+        "source.cs keyword.control.loop.cs",
+        "storage.type.function.arrow.cs",
+        "meta.class.identifier.cs entity.name.type.class.cs",
+        "source.cs entity.name.function.cs",
+        "source.cs entity.name.type.class.cs"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Function/Class Name - Elixir",
+      "scope": [
+        "source.elixir entity.name.function.elixir",
+        "entity.name.type.module.elixir"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Control Flow - JavaScript",
+      "scope": [
+        "keyword.control.flow.js",
+        "keyword.control.flow.js.jsx",
+        "keyword.control.trycatch.js",
+        "keyword.control.trycatch.js.jsx",
+        "source.js meta.group.braces.curly.js keyword.control.loop.js",
+        "source.js.jsx meta.group.braces.curly.js.jsx keyword.control.loop.js.jsx",
+        "source.js meta.export.default.js keyword.control.default.js",
+        "source.js.jsx meta.export.default.js.jsx keyword.control.default.js.jsx",
+        "keyword.control.switch.js",
+        "keyword.control.switch.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Control Flow - Coffee",
+      "scope": [
+        "keyword.control.flow.coffee",
+        "keyword.control.trycatch.coffee",
+        "source.coffee meta.group.braces.curly.coffee keyword.control.loop.coffee",
+        "source.coffee meta.export.default.coffee keyword.control.default.coffee",
+        "keyword.control.switch.coffee"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Control Flow - TypeScript",
+      "scope": [
+        "keyword.control.flow.ts",
+        "keyword.control.flow.tsx",
+        "keyword.control.trycatch.ts",
+        "keyword.control.trycatch.tsx",
+        "source.ts meta.group.braces.curly.ts keyword.control.loop.ts",
+        "source.tsx meta.group.braces.curly.tsx keyword.control.loop.tsx",
+        "source.ts meta.export.default.ts keyword.control.default.ts",
+        "source.tsx meta.export.default.tsx keyword.control.default.tsx",
+        "keyword.control.switch.ts",
+        "keyword.control.switch.tsx"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Control Flow - php",
+      "scope": [
+        "keyword.control.flow.php",
+        "keyword.control.trycatch.php",
+        "source.php meta.group.braces.curly.php keyword.control.loop.php",
+        "keyword.control.switch.php"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Control Flow - Shell Script",
+      "scope": [
+        "source.shell meta.scope.while-loop.shell keyword.control.shell",
+        "source.shell meta.scope.for-in-loop.shell keyword.control.shell"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Control Flow - Shell Script 2",
+      "scope": [
+        "source.shell meta.scope.while-loop.shell meta.scope.if-block.shell keyword.control.shell",
+        "source.shell meta.scope.for-in-loop.shell meta.scope.if-block.shell keyword.control.shell"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Control Flow - Java",
+      "scope": [
+        "keyword.control.flow.java",
+        "keyword.control.trycatch.java",
+        "source.java meta.group.braces.curly.java keyword.control.loop.java",
+        "keyword.control.switch.java"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Control Flow - C#",
+      "scope": [
+        "source.cs keyword.control.flow",
+        "keyword.control.trycatch.cs",
+        "source.cs meta.group.braces.curly.cs keyword.control.loop.cs",
+        "source.cs keyword.control.switch.cs"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Control Flow - Elixir",
+      "scope": ["keyword.control.elixir"],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Control Flow - Java italic",
+      "scope": ["keyword.control.java"],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Operator - XML",
+      "scope": ["meta.tag.preprocessor.xml"],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Operator - XML",
+      "scope": ["meta.tag.preprocessor.xml entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#<%- base["C3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Assignment",
+      "scope": "keyword.operator.assignment",
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Logic - JavaScript",
+      "scope": [
+        "keyword.operator.logical.js",
+        "keyword.operator.logical.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Logic - Coffee",
+      "scope": ["keyword.operator.logical.coffee"],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Logic - TypeScript",
+      "scope": ["keyword.operator.logical.ts", "keyword.operator.logical.tsx"],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Logic - Go",
+      "scope": ["source.go keyword.operator.assignment.go"],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "Logic - PHP",
+      "scope": [
+        "source.php keyword.operator",
+        "punctuation.separator.inheritance.php"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Logic - Shell",
+      "scope": ["source.shell meta.scope.logical-expression.shell"],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },    
+    {
+      "name": "Attributes",
+      "scope": [
+        "entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "HTML Attributes",
+      "scope": [
+        "text.html.basic entity.other.attribute-name.html",
+        "text.html.basic entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "HTML Text Basic",
+      "scope": [
+        "text.html.basic"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "CSS Classes and Tags",
+      "scope": [
+        "entity.other.attribute-name.class"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "CSS ID's",
+      "scope": [
+        "source.sass keyword.control"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Inserted",
+      "scope": [
+        "markup.inserted"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Deleted",
+      "scope": [
+        "markup.deleted"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Diff Deleted",
+      "scope": [
+        "markup.deleted.diff"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Diff Inserted",
+      "scope": [
+        "markup.inserted.diff"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Changed",
+      "scope": [
+        "markup.changed"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Regular Expressions",
+      "scope": [
+        "string.regexp"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Escape Characters",
+      "scope": [
+        "constant.character.escape"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "URL",
+      "scope": [
+        "*url*",
+        "*link*",
+        "*uri*"
+      ],
+      "settings": {
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Decorators",
+      "scope": [
+        "tag.decorator.js entity.name.tag.js",
+        "tag.decorator.js punctuation.definition.tag.js"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "ES7 Bind Operator",
+      "scope": [
+        "source.js constant.other.object.key.js string.unquoted.label.js"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "JSON Property Names",
+      "scope": "support.type.property-name.json",
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "JSON Support Constants",
+      "scope": "support.constant.json",
+      "settings": {
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "JSON Property values (string)",
+      "scope": "meta.structure.dictionary.value.json string.quoted.double",
+      "settings": {
+        "foreground": "#<%- base["D2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Specific JSON Property values like null",
+      "scope":
+      "meta.structure.dictionary.json meta.structure.dictionary.value constant.language",
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "JSON Key - Level 0",
+      "scope": [
+        "source.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "JSON Key - Level 1",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "JSON Key - Level 2",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "JSON Key - Level 3",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "JSON Key - Level 4",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "JSON Key - Level 5",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "JSON Key - Level 6",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "JSON Key - Level 7",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "JSON Key - Level 8",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markdown - Plain",
+      "scope": [
+        "text.html.markdown",
+        "punctuation.definition.list_item.markdown"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markdown - Plain",
+      "scope": [
+        "beginning.punctuation.definition.list.markdown"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markdown - Markup Raw Inline",
+      "scope": [
+        "text.html.markdown markup.inline.raw.markdown"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markdown - Markup Raw Inline Punctuation",
+      "scope": [
+        "text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markdown - Line Break",
+      "scope": [
+        "text.html.markdown meta.dummy.line-break"
+      ],
+      "settings": {
+        "foreground": ""
+      }
+    },
+    {
+      "name": "Markdown - Heading",
+      "scope": [
+        "markdown.heading",
+        "markup.heading | markup.heading entity.name",
+        "markup.heading.markdown punctuation.definition.heading.markdown",
+        "markup.heading1",
+        "markup.heading.markdown",
+        "entity.name",
+        "entity.name.section.markdown",
+        "heading.1.markdown"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markdown - Heading Punctuation",
+      "scope": [
+        "markup.heading.markdown punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markup - Italic",
+      "scope": [
+        "markup.italic.markdown"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markup - Bold",
+      "scope": [
+        "markup.bold",
+        "markup.bold string"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markup - Bold-Italic",
+      "scope": [
+        "markup.bold markup.italic",
+        "markup.italic markup.bold",
+        "markup.quote markup.bold",
+        "markup.bold markup.italic string",
+        "markup.italic markup.bold string",
+        "markup.quote markup.bold string"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markup - Underline",
+      "scope": [
+        "markup.underline"
+      ],
+      "settings": {
+        "fontStyle": "underline",
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markup - Strike",
+      "scope": [
+        "markup.strike"
+      ],
+      "settings": {
+        "fontStyle": "strike",
+        "foreground": ""
+      }
+    },
+    {
+      "name": "Markdown - Blockquote",
+      "scope": [
+        "markup.quote punctuation.definition.blockquote.markdown"
+
+      ],
+      "settings": {
+        "background": "#<%- base["C1"]["hex"] %>",
+        "foreground": "#<%- base["C7"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markdown - Blockquote",
+      "scope": [
+        "markup.quote.markdown"
+
+      ],
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markdown - > Blockquote",
+      "scope": [
+        "beginning.punctuation.definition.quote.markdown"
+
+      ],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markdown - ! Img",
+      "scope": [
+        "meta.paragraph.markdown"
+
+      ],
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markdown - **Bold** _Italic_",
+      "scope": [
+        "punctuation.definition.bold.markdown",
+        "punctuation.definition.italic.markdown"
+
+      ],
+      "settings": {
+        "foreground": "#<%- base["B2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markup - Quote",
+      "scope": [
+        "markup.quote"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": ""
+      }
+    },
+    {
+      "name": "Markdown - Link",
+      "scope": [
+        "string.other.link.title.markdown"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markdown - Link",
+      "scope": [
+        "markup.underline.link.markdown"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markdown - Link Description",
+      "scope": [
+        "string.other.link.description.title.markdown"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markdown - Link Anchor",
+      "scope": [
+        "constant.other.reference.link.markdown"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markup - Raw Block",
+      "scope": [
+        "markup.raw.block"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markdown - Raw Block Fenced",
+      "scope": [
+        "markup.raw.block.fenced.markdown"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C7"]["hex"] %>50"
+      }
+    },
+    {
+      "name": "Markdown - Fenced Bode Block",
+      "scope": [
+        "punctuation.definition.fenced.markdown"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C7"]["hex"] %>50"
+      }
+    },
+    {
+      "name": "Markdown - Fenced Bode Block Variable",
+      "scope": [
+        "markup.raw.block.fenced.markdown",
+        "variable.language.fenced.markdown",
+        "punctuation.section.class.end"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markdown - Fenced Language",
+      "scope": [
+        "variable.language.fenced.markdown"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markdown - Separator",
+      "scope": [
+        "meta.separator"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "background": "#<%- base["C7"]["hex"] %>",
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markup - Table",
+      "scope": [
+        "markup.table"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "scope": "token.info-token",
+      "settings": {
+        "foreground": "#<%- base["B2"]["hex"] %>"
+      }
+    },
+    {
+      "scope": "token.warn-token",
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "scope": "token.error-token",
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "scope": "token.debug-token",
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "String",
+      "scope": [
+        "string",
+        "string.quoted"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Variable Other",
+      "scope": [
+        "meta.attribute-selector.css entity.other.attribute-name.attribute",
+        "variable.other.readwrite.js"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Support Constant Math",
+      "scope": "support.constant.math",
+      "settings": {
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Regexp",
+      "scope": "string.regexp",
+      "settings": {
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": ["constant.numeric", "constant.character.numeric"],
+      "settings": {
+        "foreground": "#<%- base["B0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": [
+        "variable.language",
+        "variable.other"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": [
+        "variable.language.this.js",
+        "variable.language.this.php"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Storage",
+      "scope": [
+        "storage",
+        "meta.var.expr",
+        "meta.class meta.method.declaration meta.var.expr storage.type.js",
+        "storage.type.property.js",
+        "storage.type.property.ts",
+        "storage.type.property.tsx"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D1"]["hex"] %>",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Storage Type Class",
+      "scope": [
+        "storage.type.class.js"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Class name",
+      "scope": ["entity.name.class", "meta.class entity.name.type.class"],
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Class name type",
+      "scope": [
+        "entity.name.type"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Function name",
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Variable start",
+      "scope": "punctuation.definition.variable",
+      "settings": {
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Embedded code markers",
+      "scope": [
+        "punctuation.section.embedded.begin",
+        "punctuation.section.embedded.end"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C4"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Built-in constant",
+      "scope": [
+        "constant.language",
+        "punctuation.definition.constant",
+        "variable.other.constant",
+        "meta.preprocessor"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Support.construct",
+      "scope": [
+        "support.function.construct",
+        "keyword.other.new"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "User-defined constant",
+      "scope": [
+        "constant.character",
+        "constant.other"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Constant Character Escape",
+      "scope": "constant.character.escape",
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "RegExp String",
+      "scope": ["string.regexp", "string.regexp keyword.other"],
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Inherited class",
+      "scope": "entity.other.inherited-class",
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Tag name",
+      "scope": "entity.name.tag",
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Tag start/end Meta",
+      "scope": ["punctuation.definition.tag", "meta.tag"],
+      "settings": {
+        "foreground": "#<%- base["C2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "HTML Tag names",
+      "scope": [
+        "entity.name.tag",
+        "meta.tag.other.html",
+        "meta.tag.other.js",
+        "meta.tag.other.tsx",
+        "entity.name.tag.tsx",
+        "entity.name.tag.js",
+        "entity.name.tag",
+        "meta.tag.js",
+        "meta.tag.tsx",
+        "meta.tag.html"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Tag attribute",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Entity Name Tag Custom",
+      "scope": "entity.name.tag.custom",
+      "settings": {
+        "foreground": "#<%- base["B2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Library function",
+      "scope": "support.function",
+      "settings": {
+        "foreground": "#<%- base["B2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Continuation",
+      "scope": "punctuation.separator.continuation",
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Invalid Broken",
+      "scope": "invalid.broken",
+      "settings": {
+        "foreground": "#<%- base["C7"]["hex"] %>",
+        "background": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Invalid Unimplemented",
+      "scope": "invalid.unimplemented",
+      "settings": {
+        "background": "#<%- base["B6"]["hex"] %>",
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Invalid Illegal",
+      "scope": "invalid.illegal",
+      "settings": {
+        "background": "#<%- base["B3"]["hex"] %>",
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Library class/type",
+      "scope": [
+        "support.type",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Support Variable DOM",
+      "scope": "support.variable.dom",
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Library Exception",
+      "scope": "support.type.exception",
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Library variable",
+      "scope": "support.other.variable",
+      "settings": {}
+    },
+    {
+      "name": "Invalid",
+      "scope": "invalid",
+      "settings": {
+        "background": "#<%- base["B6"]["hex"] %>",
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Invalid deprecated",
+      "scope": "invalid.deprecated",
+      "settings": {
+        "background": "#<%- base["B5"]["hex"] %>",
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Keyword Operator",
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "#<%- base["D2"]["hex"] %>",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Keyword Operator Relational",
+      "scope": "keyword.operator.relational",
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keyword Operator Assignment",
+      "scope": "keyword.operator.assignment",
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Keyword Operator Arithmetic",
+      "scope": "keyword.operator.arithmetic",
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Keyword Operator Bitwise",
+      "scope": "keyword.operator.bitwise",
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Keyword Operator Increment",
+      "scope": "keyword.operator.increment",
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Keyword Operator Ternary",
+      "scope": "keyword.operator.ternary",
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Double-Slashed Comment",
+      "scope": "comment.line.double-slash",
+      "settings": {
+        "foreground": "#<%- base["C3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Object",
+      "scope": "object",
+      "settings": {
+        "foreground": "#<%- base["B2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Null",
+      "scope": "constant.language.null",
+      "settings": {
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Meta Brace",
+      "scope": "meta.brace",
+      "settings": {
+        "foreground": "#<%- base["C3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Meta Delimiter Period",
+      "scope": "meta.delimiter.period",
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Boolean",
+      "scope": "constant.language.boolean",
+      "settings": {
+        "foreground": "#<%- base["D3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Object Comma",
+      "scope": "object.comma",
+      "settings": {
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Variable Parameter Function",
+      "scope": "variable.parameter.function",
+      "settings": {
+        "foreground": "#<%- base["D3"]["hex"] %>",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Support Type Property Name & entity name tags",
+      "scope": [
+        "support.type.vendor.property-name",
+        "support.constant.vendor.property-value",
+        "support.type.property-name",
+        "meta.property-list entity.name.tag"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C2"]["hex"] %>",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Entity Name tag reference in stylesheets",
+      "scope": "meta.property-list entity.name.tag.reference",
+      "settings": {
+        "foreground": "#<%- base["B2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Constant Other Color RGB Value Punctuation Definition Constant",
+      "scope": "constant.other.color.rgb-value punctuation.definition.constant",
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Meta Selector",
+      "scope": "meta.selector",
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Entity Other Attribute Name Id",
+      "scope": "entity.other.attribute-name.id",
+      "settings": {
+        "foreground": "#<%- base["D2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Meta Property Name",
+      "scope": "meta.property-name",
+      "settings": {
+        "foreground": "#<%- base["D3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Doctypes",
+      "scope": ["entity.name.tag.doctype", "meta.tag.sgml.doctype"],
+      "settings": {
+        "foreground": "#<%- base["C3"]["hex"] %>",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keyword Control Operator",
+      "scope": "keyword.control.operator",
+      "settings": {
+        "foreground": "#<%- base["D3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Keyword Operator Logical",
+      "scope": "keyword.operator.logical",
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Variable Instances",
+      "scope": [
+        "variable.instance",
+        "variable.other.instance",
+        "variable.readwrite.instance",
+        "variable.other.readwrite.instance",
+        "variable.other.property"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Variable Property Other object property",
+      "scope": ["variable.other.object.property"],
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Function call JSX",
+      "scope": "meta.function-call.js.jsx entity.name.function.js.jsx",
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Variable Property Other object",
+      "scope": [
+        "variable.other.object.js",
+        "variable.other.object.jsx",
+        "variable.object.property.js",
+        "variable.object.property.jsx"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name":
+      "Keyword Operator Comparison, imports, returns and Keyword Operator Ruby",
+      "scope": [
+        "keyword.operator.comparison",
+        "keyword.control.flow.js",
+        "keyword.control.flow.ts",
+        "keyword.control.flow.tsx",
+        "keyword.control.ruby",
+        "keyword.control.module.ruby",
+        "keyword.control.class.ruby",
+        "keyword.control.def.ruby",
+        "keyword.control.loop.js",
+        "keyword.control.loop.ts",
+        "keyword.control.import.js",
+        "keyword.control.import.ts",
+        "keyword.control.import.tsx",
+        "keyword.control.from.js",
+        "keyword.control.from.ts",
+        "keyword.control.from.tsx"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Variable Interpolation",
+      "scope": "variable.interpolation",
+      "settings": {
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Support Variable Property",
+      "scope": "support.variable.property",
+      "settings": {
+        "foreground": "#<%- base["D3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Template Strings",
+      "scope": "string.template meta.template.expression",
+      "settings": {
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Backtics(``) in Template Strings",
+      "scope": "string.template punctuation.definition.string",
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Italics",
+      "scope": "italic",
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Bold",
+      "scope": "bold",
+      "settings": {
+        "foreground": "#<%- base["C0"]["hex"] %>",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Quote",
+      "scope": "quote",
+      "settings": {
+        "foreground": "#<%- base["C3"]["hex"] %>",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Raw Code",
+      "scope": "raw",
+      "settings": {
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "CoffeScript Variable Assignment",
+      "scope": "variable.assignment.coffee",
+      "settings": {
+        "foreground": "#<%- base["D3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "CoffeScript Parameter Function",
+      "scope": "variable.parameter.function.coffee",
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "CoffeeScript Assignments",
+      "scope": "variable.assignment.coffee",
+      "settings": {
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "C# Readwrite Variables",
+      "scope": "variable.other.readwrite.cs",
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "C# Classes & Storage types",
+      "scope": ["entity.name.type.class.cs", "storage.type.cs"],
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "C# Namespaces",
+      "scope": "entity.name.type.namespace.cs",
+      "settings": {
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Tag names in Stylesheets",
+      "scope": [
+        "entity.name.tag.css",
+        "entity.name.tag.less",
+        "entity.name.tag.custom.css",
+        "support.constant.property-value.css"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B0"]["hex"] %>",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Wildcard(*) selector in Stylesheets",
+      "scope": [
+        "entity.name.tag.wildcard.css",
+        "entity.name.tag.wildcard.less",
+        "entity.name.tag.wildcard.scss",
+        "entity.name.tag.wildcard.sass"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "CSS Keyword Other Unit",
+      "scope": [
+        "keyword.other.unit.css",
+        "keyword.other.unit.px.css",
+        "keyword.other.unit.vw.css",
+        "keyword.other.unit.vh.css",
+        "keyword.other.unit.ch.css",
+        "keyword.other.unit.ex.css",
+        "keyword.other.unit.percentage.css",
+        "keyword.other.unit.rem.css",
+        "keyword.other.unit.em.css"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "CSS Keyword @Rule",
+      "scope": [
+        "keyword.control.at-rule.media.css"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "CSS class and ID",
+      "scope": [
+        "entity.other.attribute-name.id",
+        "punctuation.definition.entity.css"
+      ],
+      "settings": {
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Elixir Classes",
+      "scope": [
+        "source.elixir support.type.elixir",
+        "source.elixir meta.module.elixir entity.name.class.elixir"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Elixir Functions",
+      "scope": "source.elixir entity.name.function",
+      "settings": {
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Elixir Constants",
+      "scope": [
+        "source.elixir constant.other.symbol.elixir",
+        "source.elixir constant.other.keywords.elixir"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Elixir",
+      "scope": [
+        "source.elixir variable.other.readwrite.module.elixir",
+        "source.elixir variable.other.readwrite.module.elixir punctuation.definition.variable.elixir"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Elixir Binary Punctuations",
+      "scope": "source.elixir .punctuation.binary.elixir",
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Go Function Calls",
+      "scope": "source.go meta.function-call.go",
+      "settings": {
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Go Keywords",
+      "scope": [
+        "source.go keyword.package.go",
+        "source.go keyword.import.go",
+        "source.go keyword.function.go",
+        "source.go keyword.type.go",
+        "source.go keyword.struct.go",
+        "source.go keyword.interface.go",
+        "source.go keyword.const.go",
+        "source.go keyword.var.go",
+        "source.go keyword.map.go",
+        "source.go keyword.channel.go",
+        "source.go keyword.control.go"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Go Constants e.g. nil, string format (%s, %d, etc.)",
+      "scope": [
+        "source.go constant.language.go",
+        "source.go constant.other.placeholder.go"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "JavaScript Classes",
+      "scope": [
+        "meta.class entity.name.type.class",
+        "entity.global.clojure"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "JavaScript Method Declaration e.g. `constructor`",
+      "scope": [
+        "meta.method.declaration storage.type.js",
+        "meta.symbol.clojure"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "JavaScript Terminator",
+      "scope": "terminator.js",
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "JavaScript Meta Punctuation Definition",
+      "scope": "meta.js punctuation.definition.js",
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Entity Names in Code Documentations",
+      "scope": [
+        "entity.name.type.instance.jsdoc",
+        "entity.name.type.instance.phpdoc"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Other Variables in Code Documentations",
+      "scope": ["variable.other.jsdoc", "variable.other.phpdoc"],
+      "settings": {
+        "foreground": "#<%- base["D3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "JavaScript module imports and exports",
+      "scope": [
+        "variable.other.meta.import.js",
+        "meta.import.js variable.other",
+        "variable.other.meta.export.js",
+        "meta.export.js variable.other"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "JavaScript Variable Parameter Function",
+      "scope": "variable.parameter.function.js",
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "JavaScript Variables",
+      "scope": ["variable.js", "variable.other.js"],
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "JavaScript Entity Name Type",
+      "scope": ["entity.name.type.js", "entity.name.type.module.js"],
+      "settings": {
+        "foreground": "#<%- base["D3"]["hex"] %>",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "JavaScript Support Classes",
+      "scope": "support.class.js",
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Ruby Variables",
+      "scope": ["variable.other.ruby"],
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Ruby Class",
+      "scope": ["entity.name.type.class.ruby"],
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Ruby Hashkeys",
+      "scope": "constant.language.symbol.hashkey.ruby",
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Attribute Name for LESS",
+      "scope":
+      "meta.attribute-selector.less entity.other.attribute-name.attribute",
+      "settings": {
+        "foreground": "#<%- base["B2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "PHP Variables",
+      "scope": ["variable.other.php", "variable.other.property.php"],
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Support Classes in PHP",
+      "scope": "support.class.php",
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Punctuations in PHP function calls",
+      "scope": "meta.function-call.php punctuation",
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "PHP Global Variables",
+      "scope": "variable.other.global.php",
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Declaration Punctuation in PHP Global Variables",
+      "scope": "variable.other.global.php punctuation.definition.variable",
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Language Constants in Python",
+      "scope": "constant.language.python",
+      "settings": {
+        "foreground": "#<%- base["B3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Python Function Parameter and Arguments",
+      "scope": [
+        "variable.parameter.function.python",
+        "meta.function-call.arguments.python"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Python Function Call",
+      "scope": [
+        "meta.function-call.python",
+        "meta.function-call.generic.python"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Punctuations in Python",
+      "scope": "punctuation.python",
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Decorator Functions in Python",
+      "scope": "entity.name.function.decorator.python",
+      "settings": {
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Python Language Variable",
+      "scope": "source.python variable.language.special",
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "SCSS Variable",
+      "scope": [
+        "variable.scss",
+        "variable.sass",
+        "variable.parameter.url.scss",
+        "variable.parameter.url.sass"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Variables in SASS At-Rules",
+      "scope": [
+        "source.css.scss meta.at-rule variable",
+        "source.css.sass meta.at-rule variable"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Attribute Name for SASS",
+      "scope": [
+        "meta.attribute-selector.scss entity.other.attribute-name.attribute",
+        "meta.attribute-selector.sass entity.other.attribute-name.attribute"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Tag names in SASS",
+      "scope": ["entity.name.tag.scss", "entity.name.tag.sass"],
+      "settings": {
+        "foreground": "#<%- base["C0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "SASS Keyword Other Unit",
+      "scope": ["keyword.other.unit.scss", "keyword.other.unit.sass"],
+      "settings": {
+        "foreground": "#<%- base["D1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "TypeScript[React] Variables and Object Properties",
+      "scope": [
+        "variable.other.readwrite.alias.ts",
+        "variable.other.readwrite.alias.tsx",
+        "variable.other.readwrite.ts",
+        "variable.other.readwrite.tsx",
+        "variable.other.object.ts",
+        "variable.other.object.tsx",
+        "variable.object.property.ts",
+        "variable.object.property.tsx",
+        "variable.other.ts",
+        "variable.other.tsx",
+        "variable.tsx",
+        "variable.ts"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "TypeScript[React] Entity Name Types",
+      "scope": ["entity.name.type.ts", "entity.name.type.tsx"],
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "TypeScript[React] Node Classes",
+      "scope": ["support.class.node.ts", "support.class.node.tsx"],
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "TypeScript[React] Entity Name Types as Parameters",
+      "scope": [
+        "meta.type.parameters.ts entity.name.type",
+        "meta.type.parameters.tsx entity.name.type"
+      ],
+      "settings": {
+        "foreground": "#<%- base["C3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "TypeScript[React] Import/Export Punctuations",
+      "scope": [
+        "meta.import.ts punctuation.definition.block",
+        "meta.import.tsx punctuation.definition.block",
+        "meta.export.ts punctuation.definition.block",
+        "meta.export.tsx punctuation.definition.block"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "TypeScript[React] Punctuation Decorators",
+      "scope": [
+        "meta.decorator punctuation.decorator.ts",
+        "meta.decorator punctuation.decorator.tsx"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "TypeScript[React] Punctuation Decorators",
+      "scope": "meta.tag.js meta.jsx.children.tsx",
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "YAML Entity Name Tags",
+      "scope": "entity.name.tag.yaml",
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "JavaScript Variable Other ReadWrite",
+      "scope": ["variable.other.readwrite.js", "variable.parameter"],
+      "settings": {
+        "foreground": "#<%- base["B2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Support Class Component",
+      "scope": ["support.class.component.js", "support.class.component.tsx"],
+      "settings": {
+        "foreground": "#<%- base["B0"]["hex"] %>",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Text nested in React tags",
+      "scope": [
+        "meta.jsx.children",
+        "meta.jsx.children.js",
+        "meta.jsx.children.tsx"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "TypeScript Entity Name Type",
+      "scope": ["entity.name.type.tsx", "entity.name.type.module.tsx"],
+      "settings": {
+        "foreground": "#<%- base["D3"]["hex"] %>"
+      }
+    },
+    {
+      "name": "TypeScript Method Declaration e.g. `constructor`",
+      "scope": [
+        "meta.method.declaration storage.type.ts",
+        "meta.method.declaration storage.type.tsx"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B2"]["hex"] %>"
+      }
+    },
+    {
+      "name": "normalize font style of certain components",
+      "scope": [
+        "meta.property-list.css meta.property-value.css variable.other.less",
+        "meta.property-list.scss variable.scss",
+        "meta.property-list.sass variable.sass",
+        "meta.brace",
+        "keyword.operator.operator",
+        "keyword.operator.or.regexp",
+        "keyword.operator.expression.in",
+        "keyword.operator.relational",
+        "keyword.operator.assignment",
+        "keyword.operator.comparison",
+        "keyword.operator.type",
+        "keyword.operator",
+        "keyword",
+        "punctuation.definintion.string",
+        "punctuation",
+        "variable.other.readwrite.js",
+        "storage.type",
+        "source.css",
+        "entity.other.attribute-name.class",
+        "entity.other.attribute-name.id",
+        "string.quoted",
+        "variable.other.constant",
+        "variable.language.this.js"
+      ],
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "diff: header",
+      "scope": [
+        "meta.diff",
+        "meta.diff.header"
+      ],
+      "settings": {
+        "background": "#<%- base["C7"]["hex"] %>",
+        "fontStyle": "italic",
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "diff: deleted",
+      "scope": "markup.deleted",
+      "settings": {
+        "background": "#<%- base["B7"]["hex"] %>",
+        "fontStyle": "",
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "diff: changed",
+      "scope": "markup.changed",
+      "settings": {
+        "background": "#<%- base["B5"]["hex"] %>",
+        "fontStyle": "",
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "diff: inserted",
+      "scope": "markup.inserted",
+      "settings": {
+        "background": "#<%- base["B7"]["hex"] %>",
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markup Quote",
+      "scope": "markup.quote",
+      "settings": {
+        "foreground": "#<%- base["C1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markup Lists",
+      "scope": "markup.list",
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markup Styling",
+      "scope": [
+        "markup.bold",
+        "markup.italic"
+      ],
+      "settings": {
+        "foreground": "#<%- base["B1"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markup Inline",
+      "scope": "markup.inline.raw",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#<%- base["D0"]["hex"] %>"
+      }
+    },
+    {
+      "name": "Markup Setext Header",
+      "scope": "markup.heading.setext",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#<%- base["B2"]["hex"] %>"
+      }
+    }
+  ],
+  "colors": {
+    "focusBorder": "#<%- base["C5"]["hex"] %>80",
+    "foreground": "#<%- base["C0"]["hex"] %>",
+    "widget.shadow": "#<%- base["C7"]["hex"] %>",
+    "selection.background": "#<%- base["B5"]["hex"] %>",
+    "descriptionForeground": "#<%- base["B6"]["hex"] %>",
+    "textLink.foreground": "#<%- base["D3"]["hex"] %>",
+    "textLink.activeForeground": "#<%- base["D3"]["hex"] %>",
+    "input.background": "#<%- base["C6"]["hex"] %>",
+    "input.foreground": "#<%- base["D0"]["hex"] %>",
+    "input.border": "#<%- base["C5"]["hex"] %>",
+    "input.placeholderForeground": "#<%- base["C0"]["hex"] %>",
+    "inputOption.activeBorder": "#<%- base["D3"]["hex"] %>",
+    "inputValidation.infoBorder": "#<%- base["B6"]["hex"] %>",
+    "inputValidation.infoBackground": "#<%- base["C7"]["hex"] %>",
+    "inputValidation.warningBackground": "#<%- base["B5"]["hex"] %>",
+    "inputValidation.warningBorder": "#<%- base["B5"]["hex"] %>",
+    "inputValidation.errorBackground": "#<%- base["B7"]["hex"] %>",
+    "inputValidation.errorBorder": "#<%- base["B7"]["hex"] %>",
+    "punctuation.definition.generic.begin.html":  "#<%- base["B4"]["hex"] %>",
+    "errorForeground": "#<%- base["B7"]["hex"] %>",
+    "badge.background": "#<%- base["B2"]["hex"] %>",
+    "badge.foreground": "#<%- base["B7"]["hex"] %>",
+    "progress.background":"#<%- base["C3"]["hex"] %>",
+    "progressBar.background": "#<%- base["B5"]["hex"] %>",
+    "dropdown.background": "#<%- base["C5"]["hex"] %>",
+    "dropdown.foreground": "#<%- base["D0"]["hex"] %>",
+    "dropdown.border": "#<%- base["C4"]["hex"] %>",
+    "button.background": "#<%- base["B2"]["hex"] %>",
+    "button.hoverBackground": "#<%- base["B3"]["hex"] %>",
+    "button.foreground": "#<%- base["B7"]["hex"] %>",
+    "welcomePage.buttonBackground": "#<%- base["C6"]["hex"] %>80",
+    "welcomePage.buttonHoverBackground": "#<%- base["C6"]["hex"] %>",
+    "list.activeSelectionBackground": "#<%- base["C5"]["hex"] %>",
+    "list.activeSelectionForeground":  "#<%- base["D0"]["hex"] %>",
+    "list.focusBackground": "#<%- base["C6"]["hex"] %>",
+    "list.focusForeground": "#<%- base["D2"]["hex"] %>",
+    "list.hoverBackground": "#<%- base["C6"]["hex"] %>",
+    "list.hoverForeground": "#<%- base["D2"]["hex"] %>",
+    "list.inactiveSelectionBackground": "#<%- base["C6"]["hex"] %>",
+    "list.inactiveSelectionForeground": "#<%- base["D1"]["hex"] %>",
+    "list.dropBackground": "#<%- base["D3"]["hex"] %>40",
+    "list.highlightForeground": "#<%- base["D2"]["hex"] %>",
+    "list.errorForeground": "#<%- base["B4"]["hex"] %>",
+    "list.warningForeground": "#<%- base["B4"]["hex"] %>",
+    "list.invalidItemForeground": "#<%- base["B4"]["hex"] %>",
+    "gitDecoration.modifiedResourceForeground": "#<%- base["D3"]["hex"] %>",
+    "gitDecoration.untrackedResourceForeground": "#<%- base["D1"]["hex"] %>",
+    "gitDecoration.deletedResourceForeground": "#<%- base["B4"]["hex"] %>",
+    "gitDecoration.ignoredResourceForeground": "#<%- base["C2"]["hex"] %>",
+    "gitDecoration.conflictingResourceForeground": "#<%- base["B5"]["hex"] %>",
+    "scrollbar.shadow": "#<%- base["C7"]["hex"] %>",
+    "scrollbarSlider.activeBackground": "#<%- base["C4"]["hex"] %>",
+    "scrollbarSlider.background": "#<%- base["C6"]["hex"] %>",
+    "scrollbarSlider.hoverBackground":  "#<%- base["C5"]["hex"] %>",
+    "editorGutter.background": "#<%- base["C6"]["hex"] %>64",
+    "editorGutter.modifiedBackground": "#<%- base["B5"]["hex"] %>",
+    "editorGutter.addedBackground": "#<%- base["D6"]["hex"] %>40",
+    "editorGutter.deletedBackground": "#<%- base["D0"]["hex"] %>",
+    "diffEditor.insertedTextBackground": "#<%- base["B7"]["hex"] %>",
+    "diffEditor.insertedTextBorder": "#<%- base["B7"]["hex"] %>",
+    "diffEditor.removedTextBackground": "#<%- base["B7"]["hex"] %>",
+    "diffEditor.removedTextBorder": "#<%- base["B7"]["hex"] %>",
+    "editorWidget.background": "#<%- base["C6"]["hex"] %>",
+    "editorWidget.border": "#<%- base["C5"]["hex"] %>",
+    "editorSuggestWidget.background": "#<%- base["C6"]["hex"] %>",
+    "editorSuggestWidget.border":  "#<%- base["C5"]["hex"] %>",
+    "editorSuggestWidget.foreground": "#<%- base["C0"]["hex"] %>",
+    "editorSuggestWidget.highlightForeground": "#<%- base["B7"]["hex"] %>",
+    "editorSuggestWidget.selectedBackground": "#<%- base["C3"]["hex"] %>",
+    "editorHoverWidget.background": "#<%- base["C6"]["hex"] %>F2",
+    "editorHoverWidget.border":  "#<%- base["C5"]["hex"] %>F2",
+    "debugExceptionWidget.background": "#<%- base["C6"]["hex"] %>",
+    "debugExceptionWidget.border": "#<%- base["C5"]["hex"] %>",
+    "editor.background": "#<%- base["C7"]["hex"] %>",
+    "editor.foreground": "#<%- base["C0"]["hex"] %>",
+    "editorLineNumber.foreground":"#<%- base["C5"]["hex"] %>E6",
+    "editorLineNumber.activeForeground": "#<%- base["C1"]["hex"] %>",
+    "editorCursor.foreground": "#<%- base["B5"]["hex"] %>",
+    "editorCursor.background": "#<%- base["C7"]["hex"] %>",
+    "editorWhitespace.foreground": "#<%- base["C3"]["hex"] %>",
+    "editor.lineHighlightBackground": "#<%- base["C6"]["hex"] %>",
+    "editor.lineHighlightBorder": null,
+    "editorLink.activeForeground": null,
+    "editor.rangeHighlightBackground": "#<%- base["C6"]["hex"] %>",
+    "editor.selectionBackground": "#<%- base["C6"]["hex"] %>",
+    "editor.selectionHighlightBackground": "#<%- base["C6"]["hex"] %>",
+    "editor.inactiveSelectionBackground":  "#<%- base["C3"]["hex"] %>",
+    "editorIndentGuide.background": "#<%- base["C5"]["hex"] %>80",
+    "editorIndentGuide.activeBackground": "#<%- base["C4"]["hex"] %>80",
+    "editorRuler.foreground": "#<%- base["C0"]["hex"] %>",
+    "editorCodeLens.foreground": "#<%- base["C0"]["hex"] %>",
+    "editorMarkerNavigation.background": "#<%- base["C3"]["hex"] %>",
+    "editorMarkerNavigationError.background": "#<%- base["B7"]["hex"] %>",
+    "editorMarkerNavigationWarning.background": "#<%- base["B5"]["hex"] %>",
+    "editor.findMatchBackground": "#<%- base["C5"]["hex"] %>80",
+    "editor.findMatchHighlightBackground": "#<%- base["C4"]["hex"] %>80",
+    "editor.findRangeHighlightBackground": null,
+    "editor.hoverHighlightBackground": "#<%- base["C5"]["hex"] %>",
+    "editor.wordHighlightBackground": "#<%- base["C6"]["hex"] %>",
+    "editor.wordHighlightStrongBackground": "#<%- base["C6"]["hex"] %>",
+    "editorBracketMatch.background": "#<%- base["C7"]["hex"] %>",
+    "editorBracketMatch.border": "#<%- base["C5"]["hex"] %>",
+    "editorOverviewRuler.currentContentForeground": "#<%- base["B4"]["hex"] %>",
+    "editorOverviewRuler.incomingContentForeground": "#<%- base["B4"]["hex"] %>",
+    "editorOverviewRuler.commonContentForeground": "#<%- base["B4"]["hex"] %>",
+    "editorError.foreground": "#<%- base["B1"]["hex"] %>",
+    "editorError.border": null,
+    "editorWarning.foreground": "#<%- base["B5"]["hex"] %>",
+    "editorWarning.border": null,
+    "peekViewEditor.background": "#<%- base["C6"]["hex"] %>",
+    "peekView.border": "#<%- base["C5"]["hex"] %>",
+    "peekViewEditor.matchHighlightBackground": "#<%- base["B7"]["hex"] %>",
+    "peekViewResult.background": "#<%- base["C5"]["hex"] %>",
+    "peekViewResult.fileForeground": "#<%- base["C0"]["hex"] %>",
+    "peekViewResult.lineForeground": "#<%- base["C4"]["hex"] %>",
+    "peekViewResult.matchHighlightBackground": "#<%- base["B7"]["hex"] %>",
+    "peekViewResult.selectionBackground": "#<%- base["C6"]["hex"] %>",
+    "peekViewResult.selectionForeground": "#<%- base["C0"]["hex"] %>",
+    "peekViewTitle.background": "#<%- base["C5"]["hex"] %>",
+    "peekViewTitleDescription.foreground": "#<%- base["C2"]["hex"] %>",
+    "peekViewTitleLabel.foreground": "#<%- base["C1"]["hex"] %>",
+    "merge.currentHeaderBackground": "#<%- base["C3"]["hex"] %>",
+    "merge.currentContentBackground": null,
+    "merge.incomingHeaderBackground": "#<%- base["B6"]["hex"] %>",
+    "merge.incomingContentBackground": null,
+    "merge.border": null,
+    "editorGroup.background": "#<%- base["C3"]["hex"] %>",
+    "editorGroup.border": "#<%- base["C7"]["hex"] %>",
+    "editorGroup.dropBackground": "#<%- base["D3"]["hex"] %>40",
+    "editorGroupHeader.tabsBackground": "#<%- base["C6"]["hex"] %>",
+    "editorGroupHeader.noTabsBackground": "#<%- base["C6"]["hex"] %>",
+    "editorGroupHeader.tabsBorder": "#<%- base["C7"]["hex"] %>",
+    "tab.activeForeground": "#<%- base["C0"]["hex"] %>",
+    "tab.activeBackground": "#<%- base["C7"]["hex"] %>",
+    "tab.inactiveForeground": "#<%- base["C3"]["hex"] %>",
+    "tab.unfocusedActiveForeground": "#<%- base["C4"]["hex"] %>",
+    "tab.unfocusedInactiveForeground": "#<%- base["C4"]["hex"] %>",
+    "tab.inactiveBackground": "#<%- base["C6"]["hex"] %>",
+    "tab.border": "#<%- base["C7"]["hex"] %>",
+    "tab.activeBorder": "#<%- base["C7"]["hex"] %>",
+    "tab.hoverBackground": "#<%- base["C7"]["hex"] %>",
+    "tab.unfocusedActiveBorder": "#<%- base["C2"]["hex"] %>",
+    "breadcrumbPicker.background": "#<%- base["C6"]["hex"] %>",
+    "activityBar.background": "#<%- base["C5"]["hex"] %>",
+    "activityBar.foreground": "#<%- base["C0"]["hex"] %>",
+    "activityBar.border": "#<%- base["C4"]["hex"] %>80",
+    "activityBar.dropBackground": "#<%- base["B4"]["hex"] %>40",
+    "activityBarBadge.background": "#<%- base["B2"]["hex"] %>",
+    "activityBarBadge.foreground": "#<%- base["B7"]["hex"] %>",
+    "panel.background": "#<%- base["C7"]["hex"] %>",
+    "panel.border": "#<%- base["C5"]["hex"] %>",
+    "panelTitle.activeBorder": "#<%- base["C4"]["hex"] %>",
+    "panelTitle.activeForeground": "#<%- base["C0"]["hex"] %>",
+    "panelTitle.inactiveForeground": "#<%- base["C2"]["hex"] %>",
+    "panel.dropBackground": "#<%- base["B4"]["hex"] %>40",
+    "sideBar.background": "#<%- base["C7"]["hex"] %>",
+    "sideBar.foreground": "#<%- base["D3"]["hex"] %>",
+    "sideBarTitle.foreground": "#<%- base["C0"]["hex"] %>",
+    "sideBarSectionHeader.background": "#<%- base["C6"]["hex"] %>",
+    "sideBarSectionHeader.foreground": "#<%- base["C0"]["hex"] %>",
+    "sideBar.border": "#<%- base["C5"]["hex"] %>80",
+    "sideBar.dropBackground": "#<%- base["B4"]["hex"] %>40",
+    "statusBar.foreground": "#<%- base["C2"]["hex"] %>",
+    "statusBar.background": "#<%- base["C5"]["hex"] %>",
+    "statusBar.border": "#<%- base["C4"]["hex"] %>80",
+    "statusBar.debuggingBackground": "#<%- base["C7"]["hex"] %>",
+    "statusBar.debuggingForeground": null,
+    "statusBar.debuggingBorder": "#<%- base["C7"]["hex"] %>",
+    "statusBar.noFolderBackground": "#<%- base["C7"]["hex"] %>",
+    "statusBar.noFolderForeground": null,
+    "statusBar.noFolderBorder": "#<%- base["C6"]["hex"] %>",
+    "statusBarItem.prominentBackground": "#<%- base["C6"]["hex"] %>",
+    "statusBarItem.prominentHoverBackground": "#<%- base["C6"]["hex"] %>",
+    "statusBarItem.activeBackground": "#<%- base["C3"]["hex"] %>",
+    "statusBarItem.hoverBackground": "#<%- base["C4"]["hex"] %>",
+    "titleBar.activeBackground": "#<%- base["C7"]["hex"] %>",
+    "titleBar.activeForeground": "#<%- base["B6"]["hex"] %>",
+    "titleBar.inactiveBackground": "#<%- base["C7"]["hex"] %>",
+    "titleBar.inactiveForeground": null,
+    "notifications.background": "#<%- base["C6"]["hex"] %>",
+    "notifications.foreground": "#<%- base["B1"]["hex"] %>",
+    "notificationLink.foreground": "#<%- base["D3"]["hex"] %>",
+    "extensionButton.prominentBackground": "#<%- base["B2"]["hex"] %>",
+    "extensionButton.prominentHoverBackground": "#<%- base["B2"]["hex"] %>",
+    "extensionButton.prominentForeground": "#<%- base["B7"]["hex"] %>",
+    "pickerGroup.foreground": "#<%- base["B1"]["hex"] %>",
+    "pickerGroup.border": "#<%- base["C7"]["hex"] %>",
+    "debugToolBar.background": "#<%- base["C6"]["hex"] %>",
+    "debugToolBar.border": "#<%- base["C7"]["hex"] %>",
+    "walkThrough.embeddedEditorBackground": "#<%- base["C7"]["hex"] %>",
+    "source.elm": "#<%- base["C3"]["hex"] %>",
+    "string.quoted.single.js": "#<%- base["D0"]["hex"] %>",
+    "meta.objectliteral.js": "#<%- base["B6"]["hex"] %>",
+    "terminal.background": "#<%- base["C7"]["hex"] %>",
+    "terminal.foreground": "#<%- base["C3"]["hex"] %>",
+    "terminalCursor.foreground": "#<%- base["B6"]["hex"] %>",
+    "terminalCursor.background": "#<%- base["C7"]["hex"] %>",
+    "terminal.ansiBlack": "#<%- base["C6"]["hex"] %>",
+    "terminal.ansiRed": "#<%- base["B1"]["hex"] %>",
+    "terminal.ansiGreen": "#<%- base["D3"]["hex"] %>",
+    "terminal.ansiYellow": "#<%- base["B1"]["hex"] %>",
+    "terminal.ansiBlue": "#<%- base["B3"]["hex"] %>",
+    "terminal.ansiMagenta": "#<%- base["B2"]["hex"] %>",
+    "terminal.ansiCyan": "#<%- base["D3"]["hex"] %>",
+    "terminal.ansiWhite": "#<%- base["B1"]["hex"] %>",
+    "terminal.ansiBrightBlack": "#<%- base["C3"]["hex"] %>",
+    "terminal.ansiBrightRed": "#<%- base["C1"]["hex"] %>",
+    "terminal.ansiBrightGreen": "#<%- base["C3"]["hex"] %>",
+    "terminal.ansiBrightYellow": "#<%- base["C2"]["hex"] %>",
+    "terminal.ansiBrightBlue": "#<%- base["C1"]["hex"] %>",
+    "terminal.ansiBrightMagenta": "#<%- base["B4"]["hex"] %>",
+    "terminal.ansiBrightCyan": "#<%- base["C0"]["hex"] %>",
+    "terminal.ansiBrightWhite": "#<%- base["B1"]["hex"] %>"
+  }
+}

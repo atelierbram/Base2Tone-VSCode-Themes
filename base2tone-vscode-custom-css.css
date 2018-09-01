@@ -1,0 +1,172 @@
+body[class*="Base2Tone_CaveDark"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #2f2d2e;
+}
+body[class*="Base2Tone_CaveLight"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #eae7e1;
+}
+body[class*="Base2Tone_CaveDark"] .show-file-icons .file-icon::before {
+  color: #706b6d !important;
+}
+body[class*="Base2Tone_CaveLight"] .show-file-icons .file-icon::before {
+  color: #adaba9 !important;
+}
+
+body[class*="Base2Tone_DesertDark"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #3d3a34;
+}
+body[class*="Base2Tone_DesertLight"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #e9e5e2;
+}
+body[class*="Base2Tone_DesertDark"] .show-file-icons .file-icon::before {
+  color: #908774 !important;
+}
+body[class*="Base2Tone_DesertLight"] .show-file-icons .file-icon::before {
+  color: #b9b1ac !important;
+}
+
+body[class*="Base2Tone_DrawbridgeDark"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #252a41;
+}
+body[class*="Base2Tone_DrawbridgeLight"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #e1e8ea;
+}
+body[class*="Base2Tone_DrawbridgeDark"] .show-file-icons .file-icon::before {
+  color: #5e6587 !important;
+}
+body[class*="Base2Tone_DrawbridgeLight"] .show-file-icons .file-icon::before {
+  color: #a6aeb0 !important;
+}
+
+body[class*="Base2Tone_EarthDark"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #3f3a37;
+}
+body[class*="Base2Tone_EarthLight"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #e2dcd0;
+}
+body[class*="Base2Tone_EarthDark"] .show-file-icons .file-icon::before {
+  color: #796b63 !important;
+}
+body[class*="Base2Tone_EarthLight"] .show-file-icons .file-icon::before {
+  color: #bbb4a5 !important;
+}
+
+body[class*="Base2Tone_EveningDark"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #363342;
+}
+body[class*="Base2Tone_EveningLight"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #ebe6e0;
+}
+body[class*="Base2Tone_EveningDark"] .show-file-icons .file-icon::before {
+  color: #787391 !important;
+}
+body[class*="Base2Tone_EveningLight"] .show-file-icons .file-icon::before {
+  color: #c3bdb6 !important;
+}
+
+body[class*="Base2Tone_ForestDark"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #353b35;
+}
+body[class*="Base2Tone_ForestLight"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #eaecdf;
+}
+body[class*="Base2Tone_ForestDark"] .show-file-icons .file-icon::before {
+  color: #5e6e5e !important;
+}
+body[class*="Base2Tone_ForestLight"] .show-file-icons .file-icon::before {
+  color: #b2b5a1 !important;
+}
+
+body[class*="Base2Tone_HeathDark"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #2f2d2f;
+}
+body[class*="Base2Tone_HeathLight"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #eae6e1;
+}
+body[class*="Base2Tone_HeathDark"] .show-file-icons .file-icon::before {
+  color: #6f6b70 !important;
+}
+body[class*="Base2Tone_HeathLight"] .show-file-icons .file-icon::before {
+  color: #aeaba7 !important;
+}
+
+body[class*="Base2Tone_LakeDark"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #223c44;
+}
+body[class*="Base2Tone_LakeLight"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #e8e7e3;
+}
+body[class*="Base2Tone_LakeDark"] .show-file-icons .file-icon::before {
+  color: #467686 !important;
+}
+body[class*="Base2Tone_LakeLight"] .show-file-icons .file-icon::before {
+  color: #b1afa5 !important;
+}
+
+body[class*="Base2Tone_MeadowDark"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #223644;
+}
+body[class*="Base2Tone_MeadowLight"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #e6e8e3;
+}
+body[class*="Base2Tone_MeadowDark"] .show-file-icons .file-icon::before {
+  color: #466b86 !important;
+}
+body[class*="Base2Tone_MeadowLight"] .show-file-icons .file-icon::before {
+  color: #abb1a5 !important;
+}
+
+body[class*="Base2Tone_MorningDark"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #31363f;
+}
+body[class*="Base2Tone_MorningLight"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #e3dcce;
+}
+body[class*="Base2Tone_MorningDark"] .show-file-icons .file-icon::before {
+  color: #707a8f !important;
+}
+body[class*="Base2Tone_MorningLight"] .show-file-icons .file-icon::before {
+  color: #b6ad9a !important;
+}
+
+body[class*="Base2Tone_PoolDark"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #372f42;
+}
+body[class*="Base2Tone_PoolLight"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #eae1e1;
+}
+body[class*="Base2Tone_PoolDark"] .show-file-icons .file-icon::before {
+  color: #706383 !important;
+}
+body[class*="Base2Tone_PoolLight"] .show-file-icons .file-icon::before {
+  color: #b0a6a6 !important;
+}
+
+body[class*="Base2Tone_SeaDark"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #27323f;
+}
+body[class*="Base2Tone_SeaLight"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #e1eae7;
+}
+body[class*="Base2Tone_SeaDark"] .show-file-icons .file-icon::before {
+  color: #738191 !important;
+}
+body[class*="Base2Tone_SeaLight"] .show-file-icons .file-icon::before {
+  color: #a6b0ad !important;
+}
+
+body[class*="Base2Tone_SpaceDark"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #333342;
+}
+body[class*="Base2Tone_SpaceLight"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #eae4e1;
+}
+body[class*="Base2Tone_SpaceDark"] .show-file-icons .file-icon::before {
+  color: #737391 !important;
+}
+body[class*="Base2Tone_SpaceLight"] .show-file-icons .file-icon::before {
+  color: #b1a9a5 !important;
+}
+
+.title-actions .monaco-action-bar .action-item .action-label:hover {
+  outline: 1px solid hsla(200, 0%, 50%,.25);
+}
