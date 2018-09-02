@@ -8,7 +8,7 @@ Base2Tone is based on [DuoTone themes](http://simurai.com/projects/2016/01/01/du
 
 Read more about [Base2Tone](http://base2t.one).
 
-For VS Code both the dark and light templates were created from scratch, making each theme come in a light and dark background variation. All the colors from each theme come from two base hues, but sill different markup - and programming languages are very readable with these themes in Visual Studio Code.
+For VS Code both the dark and light templates were created from scratch, so themes come in a light and dark background variation. All colors from each theme comes from two base hues, enhancing the readability within a text-editor for there are less colors (for the eye and brain) to process.
 
 ![Screenshot of Base2Tone_PoolDark in VSCode](https://i.imgur.com/FyNlKV2.png)
 
