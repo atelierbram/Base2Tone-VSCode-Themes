@@ -141,8 +141,7 @@
         "entity.name.function.clojure"
       ],
       "settings": {
-        "foreground": "#878e80",
-        "fontStyle": ""
+        "foreground": "#878e80"
       }
     },
     {
@@ -281,8 +280,7 @@
         "keyword.control.switch.ts"
       ],
       "settings": {
-        "foreground": "#73b234",
-        "fontStyle": ""
+        "foreground": "#73b234"
       }
     },
     {
@@ -1221,8 +1219,7 @@
       "name": "Class name",
       "scope": ["entity.name.class", "meta.class entity.name.type.class"],
       "settings": {
-        "foreground": "#2172ab",
-        "fontStyle": ""
+        "foreground": "#2172ab"
       }
     },
     {
@@ -1341,8 +1338,7 @@
         "meta.tag.html"
       ],
       "settings": {
-        "foreground": "#4d8217",
-        "fontStyle": ""
+        "foreground": "#4d8217"
       }
     },
     {
@@ -1411,8 +1407,7 @@
       "name": "Support Variable DOM",
       "scope": "support.variable.dom",
       "settings": {
-        "foreground": "#4d8217",
-        "fontStyle": ""
+        "foreground": "#4d8217"
       }
     },
     {
@@ -1447,8 +1442,7 @@
       "name": "Keyword Operator",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#66a329",
-        "fontStyle": ""
+        "foreground": "#66a329"
       }
     },
     {
@@ -1547,8 +1541,7 @@
       "name": "Variable Parameter Function",
       "scope": "variable.parameter.function",
       "settings": {
-        "foreground": "#73b234",
-        "fontStyle": ""
+        "foreground": "#73b234"
       }
     },
     {
@@ -1560,8 +1553,7 @@
         "meta.property-list entity.name.tag"
       ],
       "settings": {
-        "foreground": "#99a092",
-        "fontStyle": ""
+        "foreground": "#99a092"
       }
     },
     {
@@ -1619,8 +1611,7 @@
       "name": "Keyword Operator Logical",
       "scope": "keyword.operator.logical",
       "settings": {
-        "foreground": "#4299d7",
-        "fontStyle": ""
+        "foreground": "#4299d7"
       }
     },
     {
@@ -1660,8 +1651,7 @@
         "variable.object.property.jsx"
       ],
       "settings": {
-        "foreground": "#2172ab",
-        "fontStyle": ""
+        "foreground": "#2172ab"
       }
     },
     {
@@ -1799,8 +1789,7 @@
         "support.constant.property-value.css"
       ],
       "settings": {
-        "foreground": "#1b6498",
-        "fontStyle": ""
+        "foreground": "#1b6498"
       }
     },
     {
@@ -2014,8 +2003,7 @@
       "name": "JavaScript Entity Name Type",
       "scope": ["entity.name.type.js", "entity.name.type.module.js"],
       "settings": {
-        "foreground": "#73b234",
-        "fontStyle": ""
+        "foreground": "#73b234"
       }
     },
     {
@@ -2274,8 +2262,7 @@
       "name": "Support Class Component",
       "scope": ["support.class.component.js", "support.class.component.tsx"],
       "settings": {
-        "foreground": "#1b6498",
-        "fontStyle": ""
+        "foreground": "#1b6498"
       }
     },
     {
@@ -2354,7 +2341,6 @@
       "scope": "markup.deleted",
       "settings": {
         "background": "#d1ecff",
-        "fontStyle": "",
         "foreground": "#2172ab"
       }
     },
@@ -2363,7 +2349,6 @@
       "scope": "markup.changed",
       "settings": {
         "background": "#8dcefc",
-        "fontStyle": "",
         "foreground": "#2172ab"
       }
     },
