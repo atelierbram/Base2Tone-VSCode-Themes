@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/atelierbram/Base2tone-VSCode-Themes/blob/master/README.md",
   "engines": {
-    "vscode": "^1.26.0"
+    "vscode": "^1.0.0"
   },
   "icon": "icon.png",
   "galleryBanner": {
