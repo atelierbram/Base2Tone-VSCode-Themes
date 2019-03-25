@@ -7,7 +7,8 @@
     {
       "settings": {
         "background": "#222021",
-        "foreground": "#b3adaf"
+        "foreground": "#b3adaf",
+        "fontStyle": "italic"
       }
     },
     {
@@ -65,7 +66,8 @@
         "storage.type"
       ],
       "settings": {
-        "foreground": "#ffcc4d"
+        "foreground": "#ffcc4d",
+        "fontStyle": "italic"
       }
     },
     {
@@ -618,7 +620,8 @@
         "markup.deleted"
       ],
       "settings": {
-        "foreground": "#ad1f51"
+        "foreground": "#ad1f51",
+        "fontStyle": "italic"
       }
     },
     {
@@ -636,7 +639,8 @@
         "markup.inserted.diff"
       ],
       "settings": {
-        "foreground": "#787673"
+        "foreground": "#787673",
+        "fontStyle": "italic"
       }
     },
     {
@@ -645,7 +649,8 @@
         "markup.changed"
       ],
       "settings": {
-        "foreground": "#9c818b"
+        "foreground": "#9c818b",
+        "fontStyle": "italic"
       }
     },
     {
@@ -952,7 +957,8 @@
 
       ],
       "settings": {
-        "foreground": "#f0a8c1"
+        "foreground": "#f0a8c1",
+        "fontStyle": "italic"
       }
     },
     {
@@ -1345,7 +1351,8 @@
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#ffebf2"
+        "foreground": "#ffebf2",
+        "fontStyle": "italic",
       }
     },
     {
@@ -1520,7 +1527,8 @@
       "name": "Meta Delimiter Period",
       "scope": "meta.delimiter.period",
       "settings": {
-        "foreground": "#f0a8c1"
+        "foreground": "#f0a8c1",
+        "fontStyle": "italic"
       }
     },
     {
@@ -1676,7 +1684,8 @@
         "keyword.control.from.tsx"
       ],
       "settings": {
-        "foreground": "#ffcc4d"
+        "foreground": "#ffcc4d",
+        "fontStyle": "italic"
       }
     },
     {
@@ -2364,7 +2373,8 @@
       "name": "Markup Quote",
       "scope": "markup.quote",
       "settings": {
-        "foreground": "#ad1f51"
+        "foreground": "#ad1f51",
+        "fontStyle": "italic"
       }
     },
     {

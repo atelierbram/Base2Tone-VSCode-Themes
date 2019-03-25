@@ -7,7 +7,8 @@
     {
       "settings": {
         "background": "#fbfaf9",
-        "foreground": "#787673"
+        "foreground": "#787673",
+        "fontStyle": "italic"
       }
     },
     {
@@ -618,7 +619,8 @@
         "markup.deleted"
       ],
       "settings": {
-        "foreground": "#8b8984"
+        "foreground": "#8b8984",
+        "fontStyle": "italic"
       }
     },
     {
@@ -636,7 +638,8 @@
         "markup.inserted.diff"
       ],
       "settings": {
-        "foreground": "#787673"
+        "foreground": "#787673",
+        "fontStyle": "italic"
       }
     },
     {
@@ -645,7 +648,8 @@
         "markup.changed"
       ],
       "settings": {
-        "foreground": "#9c818b"
+        "foreground": "#9c818b",
+        "fontStyle": "italic"
       }
     },
     {
@@ -952,7 +956,8 @@
 
       ],
       "settings": {
-        "foreground": "#875e6d"
+        "foreground": "#875e6d",
+        "fontStyle": "italic"
       }
     },
     {
@@ -1188,7 +1193,8 @@
       "name": "Keyword",
       "scope": "keyword",
       "settings": {
-        "foreground": "#787673"
+        "foreground": "#787673",
+        "fontStyle": "italic"
       }
     },
     {
@@ -1345,7 +1351,8 @@
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#996e00"
+        "foreground": "#996e00",
+        "fontStyle": "italic",
       }
     },
     {
@@ -1520,7 +1527,8 @@
       "name": "Meta Delimiter Period",
       "scope": "meta.delimiter.period",
       "settings": {
-        "foreground": "#875e6d"
+        "foreground": "#875e6d",
+        "fontStyle": "italic"
       }
     },
     {
@@ -1676,7 +1684,8 @@
         "keyword.control.from.tsx"
       ],
       "settings": {
-        "foreground": "#996e00"
+        "foreground": "#996e00",
+        "fontStyle": "italic"
       }
     },
     {
@@ -2364,7 +2373,8 @@
       "name": "Markup Quote",
       "scope": "markup.quote",
       "settings": {
-        "foreground": "#8b8984"
+        "foreground": "#8b8984",
+        "fontStyle": "italic"
       }
     },
     {

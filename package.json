@@ -1,168 +1,173 @@
 {
-  "name": "base2tone-vscode-themes",
-  "displayName": "Base2tone VSCode Themes",
-  "description": "Duotone Themes for VS Code",
-  "version": "0.0.9",
-  "publisher": "Atelierbram",
-  "author": {
-    "name": "Bram de Haan"
-  },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/atelierbram/Base2tone-VSCode-Themes.git"
-  },
-  "homepage": "https://github.com/atelierbram/Base2tone-VSCode-Themes/blob/master/README.md",
-  "engines": {
-    "vscode": "^1.0.0"
-  },
-  "icon": "icon.png",
-  "galleryBanner": {
-    "color": "#d7cccb",
-    "theme": "light"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "VSCode",
-    "base2tone",
-    "duotone",
-    "Schemes",
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Base2Tone_CaveDark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Base2Tone_CaveDark-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_DesertDark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Base2Tone_DesertDark-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_DrawbrigdeDark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Base2Tone_DrawbridgeDark-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_EarthDark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Base2Tone_EarthDark-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_EveningDark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Base2Tone_EveningDark-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_ForestDark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Base2Tone_ForestDark-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_HeathDark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Base2Tone_HeathDark-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_LakeDark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Base2Tone_LakeDark-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_MeadowDark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Base2Tone_MeadowDark-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_MorningDark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Base2Tone_MorningDark-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_PoolDark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Base2Tone_PoolDark-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_SeaDark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Base2Tone_SeaDark-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_SpaceDark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Base2Tone_SpaceDark-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_CaveLight",
-        "uiTheme": "vs",
-        "path": "./themes/Base2Tone_CaveLight-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_DesertLight",
-        "uiTheme": "vs",
-        "path": "./themes/Base2Tone_DesertLight-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_DrawbrigdeLight",
-        "uiTheme": "vs",
-        "path": "./themes/Base2Tone_DrawbridgeLight-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_EarthLight",
-        "uiTheme": "vs",
-        "path": "./themes/Base2Tone_EarthLight-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_EveningLight",
-        "uiTheme": "vs",
-        "path": "./themes/Base2Tone_EveningLight-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_ForestLight",
-        "uiTheme": "vs",
-        "path": "./themes/Base2Tone_ForestLight-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_HeathLight",
-        "uiTheme": "vs",
-        "path": "./themes/Base2Tone_HeathLight-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_LakeLight",
-        "uiTheme": "vs",
-        "path": "./themes/Base2Tone_LakeLight-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_MeadowLight",
-        "uiTheme": "vs",
-        "path": "./themes/Base2Tone_MeadowLight-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_MorningLight",
-        "uiTheme": "vs",
-        "path": "./themes/Base2Tone_MorningLight-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_PoolLight",
-        "uiTheme": "vs",
-        "path": "./themes/Base2Tone_PoolLight-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_SeaLight",
-        "uiTheme": "vs",
-        "path": "./themes/Base2Tone_SeaLight-color-theme.json"
-      },
-      {
-        "label": "Base2Tone_SpaceLight",
-        "uiTheme": "vs",
-        "path": "./themes/Base2Tone_SpaceLight-color-theme.json"
-      }
-    ]
-  }
+	"name": "base2tone-vscode-themes",
+	"displayName": "Base2tone VSCode Themes",
+	"description": "Duotone Themes for VS Code",
+	"version": "0.0.9",
+	"publisher": "Atelierbram",
+	"author": {
+		"name": "Bram de Haan"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/atelierbram/Base2tone-VSCode-Themes.git"
+	},
+	"homepage": "https://github.com/atelierbram/Base2tone-VSCode-Themes/blob/master/README.md",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#d7cccb",
+		"theme": "light"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"VSCode",
+		"base2tone",
+		"duotone",
+		"Schemes",
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Base2Tone_CaveDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Base2Tone_CaveDark-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_DesertDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Base2Tone_DesertDark-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_DrawbrigdeDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Base2Tone_DrawbridgeDark-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_EarthDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Base2Tone_EarthDark-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_EveningDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Base2Tone_EveningDark-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_ForestDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Base2Tone_ForestDark-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_HeathDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Base2Tone_HeathDark-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_LakeDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Base2Tone_LakeDark-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_MeadowDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Base2Tone_MeadowDark-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_MorningDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Base2Tone_MorningDark-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_PoolDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Base2Tone_PoolDark-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_SeaDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Base2Tone_SeaDark-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_SpaceDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Base2Tone_SpaceDark-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_CaveLight",
+				"uiTheme": "vs",
+				"path": "./themes/Base2Tone_CaveLight-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_DesertLight",
+				"uiTheme": "vs",
+				"path": "./themes/Base2Tone_DesertLight-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_DrawbrigdeLight",
+				"uiTheme": "vs",
+				"path": "./themes/Base2Tone_DrawbridgeLight-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_EarthLight",
+				"uiTheme": "vs",
+				"path": "./themes/Base2Tone_EarthLight-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_EveningLight",
+				"uiTheme": "vs",
+				"path": "./themes/Base2Tone_EveningLight-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_ForestLight",
+				"uiTheme": "vs",
+				"path": "./themes/Base2Tone_ForestLight-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_HeathLight",
+				"uiTheme": "vs",
+				"path": "./themes/Base2Tone_HeathLight-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_LakeLight",
+				"uiTheme": "vs",
+				"path": "./themes/Base2Tone_LakeLight-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_MeadowLight",
+				"uiTheme": "vs",
+				"path": "./themes/Base2Tone_MeadowLight-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_MorningLight",
+				"uiTheme": "vs",
+				"path": "./themes/Base2Tone_MorningLight-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_PoolLight",
+				"uiTheme": "vs",
+				"path": "./themes/Base2Tone_PoolLight-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_SeaLight",
+				"uiTheme": "vs",
+				"path": "./themes/Base2Tone_SeaLight-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_SpaceLight",
+				"uiTheme": "vs",
+				"path": "./themes/Base2Tone_SpaceLight-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "b5168482-e21a-4279-963f-585df5ee898f",
+		"publisherDisplayName": "Atelierbram",
+		"publisherId": "e8498e94-820f-4f07-b46c-ea50ef75a0e7"
+	}
 }
