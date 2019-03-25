@@ -557,7 +557,7 @@
       "settings": {
         "foreground": "#fe8c52"
       }
-    },    
+    },
     {
       "name": "Attributes",
       "scope": [
@@ -1187,7 +1187,8 @@
         "variable.language.this.php"
       ],
       "settings": {
-        "foreground": "#fe8c52"
+        "foreground": "#fe8c52",
+        "fontStyle": "italic"
       }
     },
     {
@@ -2300,37 +2301,6 @@
       ],
       "settings": {
         "foreground": "#aaaaca"
-      }
-    },
-    {
-      "name": "normalize font style of certain components",
-      "scope": [
-        "meta.property-list.css meta.property-value.css variable.other.less",
-        "meta.property-list.scss variable.scss",
-        "meta.property-list.sass variable.sass",
-        "meta.brace",
-        "keyword.operator.operator",
-        "keyword.operator.or.regexp",
-        "keyword.operator.expression.in",
-        "keyword.operator.relational",
-        "keyword.operator.assignment",
-        "keyword.operator.comparison",
-        "keyword.operator.type",
-        "keyword.operator",
-        "keyword",
-        "punctuation.definintion.string",
-        "punctuation",
-        "variable.other.readwrite.js",
-        "storage.type",
-        "source.css",
-        "entity.other.attribute-name.class",
-        "entity.other.attribute-name.id",
-        "string.quoted",
-        "variable.other.constant",
-        "variable.language.this.js"
-      ],
-      "settings": {
-        "fontStyle": ""
       }
     },
     {
