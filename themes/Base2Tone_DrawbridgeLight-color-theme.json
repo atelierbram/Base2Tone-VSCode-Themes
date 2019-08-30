@@ -2384,7 +2384,7 @@
   "colors": {
     "focusBorder": "#cbd4d780",
     "foreground": "#71787a",
-    "widget.shadow": "#f9fbfb",
+    "widget.shadow": "#a6aeb0",
     "selection.background": "#a5b3fe",
     "descriptionForeground": "#c3cdfe",
     "textLink.foreground": "#5cbcd6",
