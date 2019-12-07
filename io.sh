@@ -16,6 +16,9 @@ overwrite_to_file()
   base16-builder --scheme "db/schemes/base2tone-pool.yml" --template "db/templates/vscode/dark.ejs" > "themes/Base2Tone_PoolDark-color-theme.json"
   base16-builder --scheme "db/schemes/base2tone-sea.yml" --template "db/templates/vscode/dark.ejs" > "themes/Base2Tone_SeaDark-color-theme.json"
   base16-builder --scheme "db/schemes/base2tone-space.yml" --template "db/templates/vscode/dark.ejs" > "themes/Base2Tone_SpaceDark-color-theme.json"
+  base16-builder --scheme "db/schemes/base2tone-suburb.yml" --template "db/templates/vscode/dark.ejs" > "themes/Base2Tone_SuburbDark-color-theme.json"
+  base16-builder --scheme "db/schemes/base2tone-lavender.yml" --template "db/templates/vscode/dark.ejs" > "themes/Base2Tone_LavenderDark-color-theme.json"
+  base16-builder --scheme "db/schemes/base2tone-garden.yml" --template "db/templates/vscode/dark.ejs" > "themes/Base2Tone_GardenDark-color-theme.json"
 
   base16-builder --scheme "db/schemes/base2tone-cave.yml" --template "db/templates/vscode/light.ejs" > "themes/Base2Tone_CaveLight-color-theme.json"
   base16-builder --scheme "db/schemes/base2tone-desert.yml" --template "db/templates/vscode/light.ejs" > "themes/Base2Tone_DesertLight-color-theme.json"
@@ -29,7 +32,10 @@ overwrite_to_file()
   base16-builder --scheme "db/schemes/base2tone-morning.yml" --template "db/templates/vscode/light.ejs" > "themes/Base2Tone_MorningLight-color-theme.json"
   base16-builder --scheme "db/schemes/base2tone-pool.yml" --template "db/templates/vscode/light.ejs" > "themes/Base2Tone_PoolLight-color-theme.json"
   base16-builder --scheme "db/schemes/base2tone-sea.yml" --template "db/templates/vscode/light.ejs" > "themes/Base2Tone_SeaLight-color-theme.json"
-  base16-builder --scheme "db/schemes/base2tone-space.yml" --template "db/templates/vscode/light.ejs" > "themes/Base2Tone_SpaceLight-color-theme.json"  
+  base16-builder --scheme "db/schemes/base2tone-space.yml" --template "db/templates/vscode/light.ejs" > "themes/Base2Tone_SpaceLight-color-theme.json"
+  base16-builder --scheme "db/schemes/base2tone-suburb.yml" --template "db/templates/vscode/light.ejs" > "themes/Base2Tone_SuburbLight-color-theme.json"
+  base16-builder --scheme "db/schemes/base2tone-lavender.yml" --template "db/templates/vscode/light.ejs" > "themes/Base2Tone_LavenderLight-color-theme.json"
+  base16-builder --scheme "db/schemes/base2tone-garden.yml" --template "db/templates/vscode/light.ejs" > "themes/Base2Tone_GardenLight-color-theme.json"
 }
 
 # execute it

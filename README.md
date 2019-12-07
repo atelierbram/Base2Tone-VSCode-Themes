@@ -35,10 +35,14 @@ Screenshot of Base2Tone_HeathLight in VSCode
 - [Base2Tone_EveningLight](https://i.imgur.com/kTxpyKN.png)
 - [Base2Tone_ForestDark](https://i.imgur.com/b2RrhOG.png)
 - [Base2Tone_ForestLight](https://i.imgur.com/L8ab10d.png)
+- [Base2Tone_GardenDark](https://i.imgur.com/l3JvW7S.png)
+- [Base2Tone_GardenLight](https://i.imgur.com/ilo274H.png)
 - [Base2Tone_HeathDark](https://i.imgur.com/0Iek9yp.png)
 - [Base2Tone_HeathLight](https://i.imgur.com/D7eiDDT.png)
 - [Base2Tone_LakeDark](https://i.imgur.com/NwdDv0k.png)
 - [Base2Tone_LakeLight](https://i.imgur.com/ku4eYqW.png)
+- [Base2Tone_LavenderDark](https://i.imgur.com/uHp1trg.png)
+- [Base2Tone_LavenderLight](https://i.imgur.com/cwp8dfW.png)
 - [Base2Tone_MeadowDark](https://i.imgur.com/ZXFJ6mv.png)
 - [Base2Tone_MeadowLight](https://i.imgur.com/8caJ9NH.png)
 - [Base2Tone_MorningDark](https://i.imgur.com/LyPcwWS.png)
@@ -49,6 +53,8 @@ Screenshot of Base2Tone_HeathLight in VSCode
 - [Base2Tone_SeaLight](https://i.imgur.com/y4GWHpf.png)
 - [Base2Tone_SpaceDark](https://i.imgur.com/9cF1MHx.png)
 - [Base2Tone_SpaceLight](https://i.imgur.com/l17vkgf.png)
+- [Base2Tone_SuburbDark](https://i.imgur.com/FSOFEi7.png)
+- [Base2Tone_SuburbLight](https://i.imgur.com/2mSr9Vj.png)
 
 </details>
 

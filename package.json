@@ -63,6 +63,11 @@
 				"uiTheme": "vs-dark",
 				"path": "./themes/Base2Tone_ForestDark-color-theme.json"
 			},
+ 			{
+				"label": "Base2Tone_GardenDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Base2Tone_GardenDark-color-theme.json"
+			},
 			{
 				"label": "Base2Tone_HeathDark",
 				"uiTheme": "vs-dark",
@@ -72,6 +77,11 @@
 				"label": "Base2Tone_LakeDark",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Base2Tone_LakeDark-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_LavenderDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Base2Tone_LavenderDark-color-theme.json"
 			},
 			{
 				"label": "Base2Tone_MeadowDark",
@@ -97,6 +107,11 @@
 				"label": "Base2Tone_SpaceDark",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Base2Tone_SpaceDark-color-theme.json"
+			},
+ 			{
+				"label": "Base2Tone_SuburbDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Base2Tone_SuburbDark-color-theme.json"
 			},
 			{
 				"label": "Base2Tone_CaveLight",
@@ -129,6 +144,11 @@
 				"path": "./themes/Base2Tone_ForestLight-color-theme.json"
 			},
 			{
+				"label": "Base2Tone_GardenLight",
+				"uiTheme": "vs",
+				"path": "./themes/Base2Tone_GardenLight-color-theme.json"
+			},
+			{
 				"label": "Base2Tone_HeathLight",
 				"uiTheme": "vs",
 				"path": "./themes/Base2Tone_HeathLight-color-theme.json"
@@ -137,6 +157,11 @@
 				"label": "Base2Tone_LakeLight",
 				"uiTheme": "vs",
 				"path": "./themes/Base2Tone_LakeLight-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_LavenderLight",
+				"uiTheme": "vs",
+				"path": "./themes/Base2Tone_LavenderLight-color-theme.json"
 			},
 			{
 				"label": "Base2Tone_MeadowLight",
@@ -162,6 +187,11 @@
 				"label": "Base2Tone_SpaceLight",
 				"uiTheme": "vs",
 				"path": "./themes/Base2Tone_SpaceLight-color-theme.json"
+			},
+			{
+				"label": "Base2Tone_SuburbLight",
+				"uiTheme": "vs",
+				"path": "./themes/Base2Tone_SuburbLight-color-theme.json"
 			}
 		]
 	},

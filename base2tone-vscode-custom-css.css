@@ -76,6 +76,19 @@ body[class*="Base2Tone_ForestLight"] .show-file-icons .file-icon::before {
   color: #b2b5a1 !important;
 }
 
+body[class*="Base2Tone_GardenDark"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #2b2c2a;
+}
+body[class*="Base2Tone_GardenLight"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #ece5df;
+}
+body[class*="Base2Tone_GardenDark"] .show-file-icons .file-icon::before {
+  color: #696d69!important;
+}
+body[class*="Base2Tone_GardenLight"] .show-file-icons .file-icon::before {
+  color: #b7aa9f!important;
+}
+
 body[class*="Base2Tone_HeathDark"] .monaco-workbench > .part.panel.bottom .title {
   background-color: #2f2d2f;
 }
@@ -100,6 +113,19 @@ body[class*="Base2Tone_LakeDark"] .show-file-icons .file-icon::before {
 }
 body[class*="Base2Tone_LakeLight"] .show-file-icons .file-icon::before {
   color: #b1afa5 !important;
+}
+
+body[class*="Base2Tone_LavenderDark"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #2c2839;
+}
+body[class*="Base2Tone_LavenderLight"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #ece4f1;
+}
+body[class*="Base2Tone_LavenderDark"] .show-file-icons .file-icon::before {
+  color: #6e658b !important;
+}
+body[class*="Base2Tone_LavenderLight"] .show-file-icons .file-icon::before {
+  color: #b2a4bc !important;
 }
 
 body[class*="Base2Tone_MeadowDark"] .monaco-workbench > .part.panel.bottom .title {
@@ -165,6 +191,19 @@ body[class*="Base2Tone_SpaceDark"] .show-file-icons .file-icon::before {
 }
 body[class*="Base2Tone_SpaceLight"] .show-file-icons .file-icon::before {
   color: #b1a9a5 !important;
+}
+
+body[class*="Base2Tone_SuburbDark"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #292c3d;
+}
+body[class*="Base2Tone_SuburbLight"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #eae1e5;
+}
+body[class*="Base2Tone_SuburbDark"] .show-file-icons .file-icon::before {
+  color: #5b6080!important;
+}
+body[class*="Base2Tone_SuburbLight"] .show-file-icons .file-icon::before {
+  color: #b0a6aa!important;
 }
 
 .title-actions .monaco-action-bar .action-item .action-label:hover {
