@@ -1,6 +1,6 @@
 # Base2Tone Themes for VS Code
 
-Base2Tone is thirteen duotone colorschemes which by now are implemented in themes for many applications using templates which can work with the Base16-Builder CLI tool<sup>1</sup>.
+Base2Tone is twenty duotone colorschemes which by now are implemented in themes for many applications using templates which can work with the Base16-Builder CLI tool<sup>1</sup>.
 
 Base2Tone is based on [DuoTone themes](http://simurai.com/projects/2016/01/01/duotone-themes) by [Simurai](http://simurai.com/) for Atom.
 
@@ -13,7 +13,6 @@ For VS Code both the dark and light templates were created from scratch, so them
 ![Screenshot of Base2Tone_PoolDark in VSCode](https://i.imgur.com/FyNlKV2.png)
 
 Screenshot of Base2Tone_PoolDark in VSCode
-
 
 ![Screenshot of Base2Tone_HeathLight in VSCode](https://i.imgur.com/D7eiDDT.png)
 
@@ -33,6 +32,8 @@ Screenshot of Base2Tone_HeathLight in VSCode
 - [Base2Tone_EarthLight](https://i.imgur.com/mJpYbsa.png)
 - [Base2Tone_EveningDark](https://i.imgur.com/mGagltl.png)
 - [Base2Tone_EveningLight](https://i.imgur.com/kTxpyKN.png)
+- [Base2Tone_FieldDark](https://i.imgur.com/Q5Txowe.png)
+- [Base2Tone_FieldLight](https://i.imgur.com/YOwuyJD.png)
 - [Base2Tone_ForestDark](https://i.imgur.com/b2RrhOG.png)
 - [Base2Tone_ForestLight](https://i.imgur.com/L8ab10d.png)
 - [Base2Tone_GardenDark](https://i.imgur.com/l3JvW7S.png)
@@ -43,12 +44,18 @@ Screenshot of Base2Tone_HeathLight in VSCode
 - [Base2Tone_LakeLight](https://i.imgur.com/ku4eYqW.png)
 - [Base2Tone_LavenderDark](https://i.imgur.com/uHp1trg.png)
 - [Base2Tone_LavenderLight](https://i.imgur.com/cwp8dfW.png)
+- [Base2Tone_MallDark](https://i.imgur.com/f3BoYoW.png)
+- [Base2Tone_MallLight](https://i.imgur.com/eY3pfPK.png)
 - [Base2Tone_MeadowDark](https://i.imgur.com/ZXFJ6mv.png)
 - [Base2Tone_MeadowLight](https://i.imgur.com/8caJ9NH.png)
 - [Base2Tone_MorningDark](https://i.imgur.com/LyPcwWS.png)
 - [Base2Tone_MorningLight](https://i.imgur.com/PtGk53T.png)
+- [Base2Tone_MotelDark](https://i.imgur.com/IKFKnrQ.png)
+- [Base2Tone_MotelLight](https://i.imgur.com/iWxsAV5.png)
 - [Base2Tone_PoolDark](https://i.imgur.com/FyNlKV2.png)
 - [Base2Tone_PoolLight](https://i.imgur.com/vM4Gl31.png)
+- [Base2Tone_PorchDark](https://i.imgur.com/H5YWGYG.png)
+- [Base2Tone_PorchLight](https://i.imgur.com/rolKIjJ.png)
 - [Base2Tone_SeaDark](https://i.imgur.com/HAgzQAA.png)
 - [Base2Tone_SeaLight](https://i.imgur.com/y4GWHpf.png)
 - [Base2Tone_SpaceDark](https://i.imgur.com/9cF1MHx.png)

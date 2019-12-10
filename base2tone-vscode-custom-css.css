@@ -63,6 +63,19 @@ body[class*="Base2Tone_EveningLight"] .show-file-icons .file-icon::before {
   color: #c3bdb6 !important;
 }
 
+body[class*="Base2Tone_FieldDark"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #242e2c;
+}
+body[class*="Base2Tone_FieldLight"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #e3e8e5;
+}
+body[class*="Base2Tone_FieldDark"] .show-file-icons .file-icon::before {
+  color: #667a77 !important;
+}
+body[class*="Base2Tone_FieldLight"] .show-file-icons .file-icon::before {
+  color: #9daaa2 !important;
+}
+
 body[class*="Base2Tone_ForestDark"] .monaco-workbench > .part.panel.bottom .title {
   background-color: #353b35;
 }
@@ -128,6 +141,19 @@ body[class*="Base2Tone_LavenderLight"] .show-file-icons .file-icon::before {
   color: #b2a4bc !important;
 }
 
+body[class*="Base2Tone_MallDark"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #2b2b2c;
+}
+body[class*="Base2Tone_MallLight"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #dee6ed;
+}
+body[class*="Base2Tone_MallDark"] .show-file-icons .file-icon::before {
+  color: #6a686e!important;
+}
+body[class*="Base2Tone_MallLight"] .show-file-icons .file-icon::before {
+  color: #a2abb3!important;
+}
+
 body[class*="Base2Tone_MeadowDark"] .monaco-workbench > .part.panel.bottom .title {
   background-color: #223644;
 }
@@ -154,6 +180,19 @@ body[class*="Base2Tone_MorningLight"] .show-file-icons .file-icon::before {
   color: #b6ad9a !important;
 }
 
+body[class*="Base2Tone_MotelDark"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #373434;
+}
+body[class*="Base2Tone_MotelLight"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #ede5e3;
+}
+body[class*="Base2Tone_MotelDark"] .show-file-icons .file-icon::before {
+  color: #86797b !important;
+}
+body[class*="Base2Tone_MotelLight"] .show-file-icons .file-icon::before {
+  color: #cac0be !important;
+}
+
 body[class*="Base2Tone_PoolDark"] .monaco-workbench > .part.panel.bottom .title {
   background-color: #372f42;
 }
@@ -165,6 +204,19 @@ body[class*="Base2Tone_PoolDark"] .show-file-icons .file-icon::before {
 }
 body[class*="Base2Tone_PoolLight"] .show-file-icons .file-icon::before {
   color: #b0a6a6 !important;
+}
+
+body[class*="Base2Tone_PorchDark"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #302a32;
+}
+body[class*="Base2Tone_PorchLight"] .monaco-workbench > .part.panel.bottom .title {
+  background-color: #ede3de;
+}
+body[class*="Base2Tone_PorchDark"] .show-file-icons .file-icon::before {
+  color: #645a68 !important;
+}
+body[class*="Base2Tone_PorchLight"] .show-file-icons .file-icon::before {
+  color: #b3a9a2 !important;
 }
 
 body[class*="Base2Tone_SeaDark"] .monaco-workbench > .part.panel.bottom .title {

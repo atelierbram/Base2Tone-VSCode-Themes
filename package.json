@@ -58,6 +58,11 @@
 				"uiTheme": "vs-dark",
 				"path": "./themes/Base2Tone_EveningDark-color-theme.json"
 			},
+ 			{
+				"label": "Base2Tone_FieldDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Base2Tone_FieldDark-color-theme.json"
+			},
 			{
 				"label": "Base2Tone_ForestDark",
 				"uiTheme": "vs-dark",
@@ -83,6 +88,11 @@
 				"uiTheme": "vs-dark",
 				"path": "./themes/Base2Tone_LavenderDark-color-theme.json"
 			},
+ 			{
+				"label": "Base2Tone_MallDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Base2Tone_MallDark-color-theme.json"
+			},
 			{
 				"label": "Base2Tone_MeadowDark",
 				"uiTheme": "vs-dark",
@@ -93,10 +103,20 @@
 				"uiTheme": "vs-dark",
 				"path": "./themes/Base2Tone_MorningDark-color-theme.json"
 			},
+ 			{
+				"label": "Base2Tone_MotelDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Base2Tone_MotelDark-color-theme.json"
+			},
 			{
 				"label": "Base2Tone_PoolDark",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Base2Tone_PoolDark-color-theme.json"
+			},
+ 			{
+				"label": "Base2Tone_PorchDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Base2Tone_PorchDark-color-theme.json"
 			},
 			{
 				"label": "Base2Tone_SeaDark",
@@ -138,6 +158,11 @@
 				"uiTheme": "vs",
 				"path": "./themes/Base2Tone_EveningLight-color-theme.json"
 			},
+ 			{
+				"label": "Base2Tone_FieldLight",
+				"uiTheme": "vs",
+				"path": "./themes/Base2Tone_FieldLight-color-theme.json"
+			},
 			{
 				"label": "Base2Tone_ForestLight",
 				"uiTheme": "vs",
@@ -163,6 +188,11 @@
 				"uiTheme": "vs",
 				"path": "./themes/Base2Tone_LavenderLight-color-theme.json"
 			},
+ 			{
+				"label": "Base2Tone_MallLight",
+				"uiTheme": "vs",
+				"path": "./themes/Base2Tone_MallLight-color-theme.json"
+			},
 			{
 				"label": "Base2Tone_MeadowLight",
 				"uiTheme": "vs",
@@ -173,10 +203,20 @@
 				"uiTheme": "vs",
 				"path": "./themes/Base2Tone_MorningLight-color-theme.json"
 			},
+ 			{
+				"label": "Base2Tone_MotelLight",
+				"uiTheme": "vs",
+				"path": "./themes/Base2Tone_MotelLight-color-theme.json"
+			},
 			{
 				"label": "Base2Tone_PoolLight",
 				"uiTheme": "vs",
 				"path": "./themes/Base2Tone_PoolLight-color-theme.json"
+			},
+ 			{
+				"label": "Base2Tone_PorchLight",
+				"uiTheme": "vs",
+				"path": "./themes/Base2Tone_PorchLight-color-theme.json"
 			},
 			{
 				"label": "Base2Tone_SeaLight",

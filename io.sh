@@ -19,6 +19,10 @@ overwrite_to_file()
   base16-builder --scheme "db/schemes/base2tone-suburb.yml" --template "db/templates/vscode/dark.ejs" > "themes/Base2Tone_SuburbDark-color-theme.json"
   base16-builder --scheme "db/schemes/base2tone-lavender.yml" --template "db/templates/vscode/dark.ejs" > "themes/Base2Tone_LavenderDark-color-theme.json"
   base16-builder --scheme "db/schemes/base2tone-garden.yml" --template "db/templates/vscode/dark.ejs" > "themes/Base2Tone_GardenDark-color-theme.json"
+  base16-builder --scheme "db/schemes/base2tone-mall.yml" --template "db/templates/vscode/dark.ejs" > "themes/Base2Tone_MallDark-color-theme.json"
+  base16-builder --scheme "db/schemes/base2tone-porch.yml" --template "db/templates/vscode/dark.ejs" > "themes/Base2Tone_PorchDark-color-theme.json"
+  base16-builder --scheme "db/schemes/base2tone-field.yml" --template "db/templates/vscode/dark.ejs" > "themes/Base2Tone_FieldDark-color-theme.json"
+  base16-builder --scheme "db/schemes/base2tone-motel.yml" --template "db/templates/vscode/dark.ejs" > "themes/Base2Tone_MotelDark-color-theme.json"
 
   base16-builder --scheme "db/schemes/base2tone-cave.yml" --template "db/templates/vscode/light.ejs" > "themes/Base2Tone_CaveLight-color-theme.json"
   base16-builder --scheme "db/schemes/base2tone-desert.yml" --template "db/templates/vscode/light.ejs" > "themes/Base2Tone_DesertLight-color-theme.json"
@@ -36,6 +40,10 @@ overwrite_to_file()
   base16-builder --scheme "db/schemes/base2tone-suburb.yml" --template "db/templates/vscode/light.ejs" > "themes/Base2Tone_SuburbLight-color-theme.json"
   base16-builder --scheme "db/schemes/base2tone-lavender.yml" --template "db/templates/vscode/light.ejs" > "themes/Base2Tone_LavenderLight-color-theme.json"
   base16-builder --scheme "db/schemes/base2tone-garden.yml" --template "db/templates/vscode/light.ejs" > "themes/Base2Tone_GardenLight-color-theme.json"
+  base16-builder --scheme "db/schemes/base2tone-mall.yml" --template "db/templates/vscode/light.ejs" > "themes/Base2Tone_MallLight-color-theme.json"
+  base16-builder --scheme "db/schemes/base2tone-porch.yml" --template "db/templates/vscode/light.ejs" > "themes/Base2Tone_PorchLight-color-theme.json"
+  base16-builder --scheme "db/schemes/base2tone-field.yml" --template "db/templates/vscode/light.ejs" > "themes/Base2Tone_FieldLight-color-theme.json"
+  base16-builder --scheme "db/schemes/base2tone-motel.yml" --template "db/templates/vscode/light.ejs" > "themes/Base2Tone_MotelLight-color-theme.json"
 }
 
 # execute it
