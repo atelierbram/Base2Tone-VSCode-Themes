@@ -2,7 +2,7 @@
 	"name": "base2tone-vscode-themes",
 	"displayName": "Base2tone VSCode Themes",
 	"description": "Duotone Themes for VS Code",
-	"version": "0.0.15",
+	"version": "0.0.16",
 	"publisher": "Atelierbram",
 	"author": {
 		"name": "Bram de Haan"
@@ -58,7 +58,7 @@
 				"uiTheme": "vs-dark",
 				"path": "./themes/Base2Tone_EveningDark-color-theme.json"
 			},
- 			{
+			{
 				"label": "Base2Tone_FieldDark",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Base2Tone_FieldDark-color-theme.json"
@@ -88,7 +88,7 @@
 				"uiTheme": "vs-dark",
 				"path": "./themes/Base2Tone_LavenderDark-color-theme.json"
 			},
- 			{
+			{
 				"label": "Base2Tone_MallDark",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Base2Tone_MallDark-color-theme.json"
@@ -103,7 +103,7 @@
 				"uiTheme": "vs-dark",
 				"path": "./themes/Base2Tone_MorningDark-color-theme.json"
 			},
- 			{
+			{
 				"label": "Base2Tone_MotelDark",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Base2Tone_MotelDark-color-theme.json"
@@ -113,7 +113,7 @@
 				"uiTheme": "vs-dark",
 				"path": "./themes/Base2Tone_PoolDark-color-theme.json"
 			},
- 			{
+			{
 				"label": "Base2Tone_PorchDark",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Base2Tone_PorchDark-color-theme.json"
@@ -158,7 +158,7 @@
 				"uiTheme": "vs",
 				"path": "./themes/Base2Tone_EveningLight-color-theme.json"
 			},
- 			{
+			{
 				"label": "Base2Tone_FieldLight",
 				"uiTheme": "vs",
 				"path": "./themes/Base2Tone_FieldLight-color-theme.json"
@@ -188,7 +188,7 @@
 				"uiTheme": "vs",
 				"path": "./themes/Base2Tone_LavenderLight-color-theme.json"
 			},
- 			{
+			{
 				"label": "Base2Tone_MallLight",
 				"uiTheme": "vs",
 				"path": "./themes/Base2Tone_MallLight-color-theme.json"
@@ -203,7 +203,7 @@
 				"uiTheme": "vs",
 				"path": "./themes/Base2Tone_MorningLight-color-theme.json"
 			},
- 			{
+			{
 				"label": "Base2Tone_MotelLight",
 				"uiTheme": "vs",
 				"path": "./themes/Base2Tone_MotelLight-color-theme.json"
@@ -213,7 +213,7 @@
 				"uiTheme": "vs",
 				"path": "./themes/Base2Tone_PoolLight-color-theme.json"
 			},
- 			{
+			{
 				"label": "Base2Tone_PorchLight",
 				"uiTheme": "vs",
 				"path": "./themes/Base2Tone_PorchLight-color-theme.json"
