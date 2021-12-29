@@ -2557,7 +2557,7 @@
     "statusBarItem.prominentBackground": "#333342",
     "statusBarItem.prominentHoverBackground": "#333342",
     "statusBarItem.activeBackground": "#737391",
-    "statusBarItem.hoverBackground": "#737391",
+    "statusBarItem.hoverBackground": "#333342",
     "titleBar.activeBackground": "#24242e",
     "titleBar.activeForeground": "#cecee3",
     "titleBar.inactiveBackground": "#1a1a1f",
