@@ -66,8 +66,7 @@
         "storage.type"
       ],
       "settings": {
-        "foreground": "#b3dbff",
-        "fontStyle": "italic"
+        "foreground": "#b3dbff"
       }
     },
     {
@@ -1353,7 +1352,7 @@
       "scope": "entity.other.attribute-name",
       "settings": {
         "foreground": "#f4f0ff",
-        "fontStyle": "italic",
+        "fontStyle": "italic"
       }
     },
     {
@@ -1450,7 +1449,8 @@
       "name": "Keyword Operator",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#75bfff"
+        "foreground": "#75bfff",
+        "fontStyle": "normal"
       }
     },
     {

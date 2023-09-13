@@ -1353,7 +1353,7 @@
       "scope": "entity.other.attribute-name",
       "settings": {
         "foreground": "#b25424",
-        "fontStyle": "italic",
+        "fontStyle": "italic"
       }
     },
     {
@@ -1450,7 +1450,9 @@
       "name": "Keyword Operator",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#dd672c"
+        "foreground": "#dd672c",
+        "fontStyle": "normal"
+
       }
     },
     {
