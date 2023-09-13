@@ -86,3 +86,10 @@ Run the command `Reload Custom CSS and JS` and the Custom CSS should be taking e
 
 ### Notes
 1: If interested in the build process, please look inside the `io.sh` file and the `db` folder
+2: One can disable the coloration of matching brackets in settings, because it doesn't fit these themes at all, ... looks terrible in my eyes. Note that these bracket colors are not from the theme files, and look the same across different themes. Not telling anyone what to do of course but just a heads up, see also [this issue](https://github.com/microsoft/vscode/issues/149006).
+
+```bash
+    "editor.matchBrackets": "always",
+    "editor.bracketPairColorization.enabled": false,
+    "editor.language.colorizedBracketPairs": [["(", ")"]],
+```
