@@ -2476,7 +2476,7 @@
     "editorIndentGuide.activeBackground": "#c7bcb280",
     "editorRuler.foreground": "#837467",
     "editorCodeLens.foreground": "#837467",
-    "editorMarkerNavigation.background": "#b7aa9f",
+    "editorMarkerNavigation.background": "#ece5df",
     "editorMarkerNavigationError.background": "#dcf0db",
     "editorMarkerNavigationWarning.background": "#90d98c",
     "editor.findMatchBackground": "#dbd0c780",
